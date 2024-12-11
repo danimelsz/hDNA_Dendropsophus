@@ -1,0 +1,1 @@
+iqtree2 -nt AUTO -cptime 300 -o Phyllodytes_luteolous_M -p v10.3b_CharacterSetsTE.txt -alrt 1000 -B 1000

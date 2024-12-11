@@ -1,0 +1,31 @@
+set (log:"v9.5.Drub.log")
+version ()
+rename (terminals, "Dendropsophus_synonym_list.txt")
+read ("dendropsophus124.ss")
+read ("COI.2.fasta")
+read ("Cytb.1.fasta")
+read ("H1.3.fasta")
+read ("POMC.3.fasta")
+read ("Rag.3.fasta")
+read ("Rhod.3.fasta")
+read ("SIA.2.fasta")
+read ("TYR.1.fasta")
+select ("terminals.txt")
+transform(tcm:(1,1))
+set (root:"Phyllodytes_luteolous_M")
+
+set (iterative:exact)
+
+read ("SearchTrees_TE.txt")
+
+transform (all,(static_approx)) (*POY5*)
+
+select ()
+
+report ("v9.5_Drub.IP.pdf", graphtrees)
+report ("v9.5_Drub.IP.cons.pdf", graphconsensus)
+report ("v9.5_Drub.IP.trees.txt", trees:(total))
+report ("v9.5_Drub.IP.trees.nwk", trees:(branches:min,newick))
+report ("v9.5_Drub.IP.ss", phastwinclad)
+
+quit()

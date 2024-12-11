@@ -1,0 +1,2744 @@
+IQ-TREE multicore version 2.3.5 for Linux x86 64-bit built Jul  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    242sq (AVX2, FMA3, 2003 GB RAM)
+Command: iqtree2 -nt AUTO -cptime 300 -o Phyllodytes_luteolous_M -p v10.3b_CharacterSetsTE.txt -alrt 1000 -B 1000
+Seed:    170627 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jul 12 05:53:12 2024
+Kernel:  AVX+FMA - auto-detect threads (128 CPU cores detected)
+
+Reading partition model file v10.3b_CharacterSetsTE.txt ...
+
+Loading 93 partitions...
+Reading alignment file Drub_MORPH.nex ... Nexus format detected
+Skipping unknown block (MESQUITECHARMODELS)...
+Skipping unknown block (MESQUITE)...
+WARNING: Sequence D_bipunctatus_1_M site 5: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 9: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 9: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 10: {12} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 26: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 30: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 30: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 34: {12} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 35: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 36: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 36: {01} treated as unknown character
+WARNING: Sequence D_elegans site 36: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 36: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 42: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 44: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 45: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 45: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 46: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 46: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 48: {01} treated as unknown character
+WARNING: Sequence D_marmoratus_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 50: {01} treated as unknown character
+WARNING: Sequence D_elegans site 52: {01} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 56: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 57: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 58: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 67: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 69: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 70: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 71: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 72: {12} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 72: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 74: {12} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 76: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 83: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 89: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 90: {012} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 90: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 90: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 94: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 94: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 94: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 98: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 98: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 99: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 100: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 105: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 105: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 106: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 110: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 113: {03} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 117: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 120: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 120: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 120: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 123: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 124: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 126: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 129: {12} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 129: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 140: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 140: {03} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 140: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 140: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 141: {02} treated as unknown character
+WARNING: Sequence D_elegans site 141: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 141: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 141: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 141: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 143: {13} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 143: {13} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 145: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 145: {03} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 145: {03} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 145: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 150: {02} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 152: {02} treated as unknown character
+WARNING: Sequence D_jimi_M site 161: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 162: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 163: {02} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 163: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 165: {01} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 166: {12} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 166: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 168: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 171: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 171: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 172: {12} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 175: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 178: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 178: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 178: {23} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 179: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 187: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 198: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 200: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 200: {01} treated as unknown character
+WARNING: Sequence D_elegans site 200: {01} treated as unknown character
+Alignment has 115 sequences with 201 columns, 198 distinct patterns
+172 parsimony-informative, 24 singleton sites, 5 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0131775 secs using 9109% CPU
+   1  D_marmoratus_1_M                 8.96%    failed      0.26%
+   2  D_ruschii_1_M                    8.46%    failed      0.01%
+   3  D_jimi_M                        20.40%    failed      0.01%
+   4  D_elianeae_2_M                  20.90%    failed      0.05%
+   5  D_sanborni_2_M                  16.42%    failed      0.00%
+   6  D_nanus_1                        9.45%    failed      0.07%
+   7  D_rhodopeplus_1_M               10.45%    failed      0.05%
+   8  D_branneri_2_M                  17.91%    failed      0.03%
+   9  D_bipunctatus_1_M               12.44%    failed      0.15%
+  10  D_decipiens_I_M                 13.93%    failed      0.06%
+  11  D_minutus_I_M                   12.44%    failed      0.03%
+  12  D_triangulum_1_M                 9.45%    failed      0.08%
+  13  D_elegans                       10.95%    failed      0.25%
+  14  D_labialis_1_M                   8.96%    failed      0.02%
+  15  D_riveroi_M                     19.40%    failed      0.04%
+  16  Xenohyla_truncata_1_M            9.45%    failed      0.15%
+  17  Sphaenorhynchus_pauloalvini_M    9.45%    failed      0.42%
+  18  Sphaenorhynchus_lacteus_M       15.92%    failed      0.89%
+  19  Scinax_perereca_M               16.92%    failed      0.01%
+  20  Scinax_berthae_M                 8.46%    failed      0.04%
+  21  Pseudis_minutus_M               10.95%    failed      0.21%
+  22  Phyllodytes_luteolous_M         17.91%    failed      0.00%
+  23  D_tritaeniatus_hDNA            100.00%    passed      -nan%
+  24  D_rhea_hDNA                    100.00%    passed      -nan%
+  25  D_minusculus_3                 100.00%    passed      -nan%
+  26  D_minusculus_2                 100.00%    passed      -nan%
+  27  D_minusculus_1                 100.00%    passed      -nan%
+  28  D_cruzi                        100.00%    passed      -nan%
+  29  D_branneri_1                   100.00%    passed      -nan%
+  30  D_mathiassoni_1                100.00%    passed      -nan%
+  31  D_mathiassoni_2                100.00%    passed      -nan%
+  32  D_cachimbo_2                   100.00%    passed      -nan%
+  33  D_cachimbo_1                   100.00%    passed      -nan%
+  34  D_araguaya_II_2                100.00%    passed      -nan%
+  35  D_jimi_1                       100.00%    passed      -nan%
+  36  D_araguaya_I_1                 100.00%    passed      -nan%
+  37  D_araguaya_I_2                 100.00%    passed      -nan%
+  38  D_jimi_2                       100.00%    passed      -nan%
+  39  D_cerradensis_1                100.00%    passed      -nan%
+  40  D_cerradensis_2                100.00%    passed      -nan%
+  41  D_rozenmani_1                  100.00%    passed      -nan%
+  42  D_rozenmani_2                  100.00%    passed      -nan%
+  43  D_studerae_1                   100.00%    passed      -nan%
+  44  D_anataliasiasi_1              100.00%    passed      -nan%
+  45  D_gaucheri_1                   100.00%    passed      -nan%
+  46  D_pseudomeridianus_1           100.00%    passed      -nan%
+  47  D_joannae                      100.00%    passed      -nan%
+  48  D_leali_1                      100.00%    passed      -nan%
+  49  D_parviceps_1                  100.00%    passed      -nan%
+  50  Xenohyla_eugenioi_1            100.00%    passed      -nan%
+  51  D_microcephalus_1              100.00%    passed      -nan%
+  52  D_werneri_1                    100.00%    passed      -nan%
+  53  D_shiwiarum_1                  100.00%    passed      -nan%
+  54  D_reicheli_1                   100.00%    passed      -nan%
+  55  D_coffea                       100.00%    passed      -nan%
+  56  D_walfordi                     100.00%    passed      -nan%
+  57  D_sartori_1                    100.00%    passed      -nan%
+  58  D_robertmertensi               100.00%    passed      -nan%
+  59  D_araguaya_II_1                100.00%    passed      -nan%
+  60  D_anataliasiasi_2              100.00%    passed      -nan%
+  61  D_elianeae_1                   100.00%    passed      -nan%
+  62  D_elianae_3                    100.00%    passed      -nan%
+  63  D_sanborni_1                   100.00%    passed      -nan%
+  64  D_rubicundulus_1               100.00%    passed      -nan%
+  65  D_juliani_1                    100.00%    passed      -nan%
+  66  D_juliani_2                    100.00%    passed      -nan%
+  67  D_rubicundulus_2               100.00%    passed      -nan%
+  68  D_columbianus_1                100.00%    passed      -nan%
+  69  Scarthyla_goinorum_1           100.00%    passed      -nan%
+  70  D_juliani_A_2                  100.00%    passed      -nan%
+  71  D_bilobatus_2                  100.00%    passed      -nan%
+  72  D_cf_tritaeniatus_4            100.00%    passed      -nan%
+  73  D_cf_tritaeniatus_3            100.00%    passed      -nan%
+  74  D_cf_tritaeniatus_2            100.00%    passed      -nan%
+  75  D_cf_tritaeniatus_1            100.00%    passed      -nan%
+  76  D_sanborni_5                   100.00%    passed      -nan%
+  77  D_sanborni_4                   100.00%    passed      -nan%
+  78  D_sanborni_3                   100.00%    passed      -nan%
+  79  D_rubicundulus_18              100.00%    passed      -nan%
+  80  D_rubicundulus_17              100.00%    passed      -nan%
+  81  D_rubicundulus_16              100.00%    passed      -nan%
+  82  D_rubicundulus_15              100.00%    passed      -nan%
+  83  D_rubicundulus_14              100.00%    passed      -nan%
+  84  D_rubicundulus_13              100.00%    passed      -nan%
+  85  D_rubicundulus_12              100.00%    passed      -nan%
+  86  D_rubicundulus_11              100.00%    passed      -nan%
+  87  D_rubicundulus_10              100.00%    passed      -nan%
+  88  D_rubicundulus_9               100.00%    passed      -nan%
+  89  D_rubicundulus_8               100.00%    passed      -nan%
+  90  D_rubicundulus_7               100.00%    passed      -nan%
+  91  D_rubicundulus_6               100.00%    passed      -nan%
+  92  D_rubicundulus_5               100.00%    passed      -nan%
+  93  D_rubicundulus_4               100.00%    passed      -nan%
+  94  D_rubicundulus_3               100.00%    passed      -nan%
+  95  D_rozenmani_6                  100.00%    passed      -nan%
+  96  D_rozenmani_5                  100.00%    passed      -nan%
+  97  D_rozenmani_4                  100.00%    passed      -nan%
+  98  D_rozenmani_3                  100.00%    passed      -nan%
+  99  D_jimi_3                       100.00%    passed      -nan%
+ 100  D_elianae_8                    100.00%    passed      -nan%
+ 101  D_elianae_7                    100.00%    passed      -nan%
+ 102  D_elianae_6                    100.00%    passed      -nan%
+ 103  D_elianae_5                    100.00%    passed      -nan%
+ 104  D_elianae_4                    100.00%    passed      -nan%
+ 105  D_araguaya_II_3                100.00%    passed      -nan%
+ 106  D_anataliasiasi_7              100.00%    passed      -nan%
+ 107  D_anataliasiasi_6              100.00%    passed      -nan%
+ 108  D_anataliasiasi_5              100.00%    passed      -nan%
+ 109  D_anataliasiasi_4              100.00%    passed      -nan%
+ 110  D_anataliasiasi_3              100.00%    passed      -nan%
+ 111  D_bilobatus_1                  100.00%    passed      -nan%
+ 112  D_juliani_A                    100.00%    passed      -nan%
+ 113  D_meridensis                   100.00%    passed      -nan%
+ 114  Itapotihyla_langsdorffi_1      100.00%    passed      -nan%
+ 115  Lysapus_laevis_1               100.00%    passed      -nan%
+WARNING: 93 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           83.39%  22 sequences failed composition chi2 test (p-value<5%; df=4)
+Reading alignment file Drub_MORPH.nex ... Nexus format detected
+Skipping unknown block (MESQUITECHARMODELS)...
+Skipping unknown block (MESQUITE)...
+WARNING: Sequence D_bipunctatus_1_M site 5: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 9: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 9: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 10: {12} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 26: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 30: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 30: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 34: {12} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 35: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 36: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 36: {01} treated as unknown character
+WARNING: Sequence D_elegans site 36: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 36: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 42: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 44: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 45: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 45: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 46: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 46: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 48: {01} treated as unknown character
+WARNING: Sequence D_marmoratus_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 50: {01} treated as unknown character
+WARNING: Sequence D_elegans site 52: {01} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 56: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 57: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 58: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 67: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 69: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 70: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 71: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 72: {12} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 72: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 74: {12} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 76: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 83: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 89: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 90: {012} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 90: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 90: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 94: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 94: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 94: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 98: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 98: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 99: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 100: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 105: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 105: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 106: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 110: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 113: {03} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 117: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 120: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 120: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 120: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 123: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 124: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 126: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 129: {12} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 129: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 140: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 140: {03} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 140: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 140: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 141: {02} treated as unknown character
+WARNING: Sequence D_elegans site 141: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 141: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 141: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 141: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 143: {13} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 143: {13} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 145: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 145: {03} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 145: {03} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 145: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 150: {02} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 152: {02} treated as unknown character
+WARNING: Sequence D_jimi_M site 161: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 162: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 163: {02} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 163: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 165: {01} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 166: {12} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 166: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 168: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 171: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 171: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 172: {12} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 175: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 178: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 178: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 178: {23} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 179: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 187: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 198: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 200: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 200: {01} treated as unknown character
+WARNING: Sequence D_elegans site 200: {01} treated as unknown character
+Alignment has 115 sequences with 201 columns, 198 distinct patterns
+172 parsimony-informative, 24 singleton sites, 5 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0125359 secs using 1.071e+04% CPU
+   1  D_marmoratus_1_M                 8.96%    failed      0.26%
+   2  D_ruschii_1_M                    8.46%    failed      0.01%
+   3  D_jimi_M                        20.40%    failed      0.01%
+   4  D_elianeae_2_M                  20.90%    failed      0.05%
+   5  D_sanborni_2_M                  16.42%    failed      0.00%
+   6  D_nanus_1                        9.45%    failed      0.07%
+   7  D_rhodopeplus_1_M               10.45%    failed      0.05%
+   8  D_branneri_2_M                  17.91%    failed      0.03%
+   9  D_bipunctatus_1_M               12.44%    failed      0.15%
+  10  D_decipiens_I_M                 13.93%    failed      0.06%
+  11  D_minutus_I_M                   12.44%    failed      0.03%
+  12  D_triangulum_1_M                 9.45%    failed      0.08%
+  13  D_elegans                       10.95%    failed      0.25%
+  14  D_labialis_1_M                   8.96%    failed      0.02%
+  15  D_riveroi_M                     19.40%    failed      0.04%
+  16  Xenohyla_truncata_1_M            9.45%    failed      0.15%
+  17  Sphaenorhynchus_pauloalvini_M    9.45%    failed      0.42%
+  18  Sphaenorhynchus_lacteus_M       15.92%    failed      0.89%
+  19  Scinax_perereca_M               16.92%    failed      0.01%
+  20  Scinax_berthae_M                 8.46%    failed      0.04%
+  21  Pseudis_minutus_M               10.95%    failed      0.21%
+  22  Phyllodytes_luteolous_M         17.91%    failed      0.00%
+  23  D_tritaeniatus_hDNA            100.00%    passed      -nan%
+  24  D_rhea_hDNA                    100.00%    passed      -nan%
+  25  D_minusculus_3                 100.00%    passed      -nan%
+  26  D_minusculus_2                 100.00%    passed      -nan%
+  27  D_minusculus_1                 100.00%    passed      -nan%
+  28  D_cruzi                        100.00%    passed      -nan%
+  29  D_branneri_1                   100.00%    passed      -nan%
+  30  D_mathiassoni_1                100.00%    passed      -nan%
+  31  D_mathiassoni_2                100.00%    passed      -nan%
+  32  D_cachimbo_2                   100.00%    passed      -nan%
+  33  D_cachimbo_1                   100.00%    passed      -nan%
+  34  D_araguaya_II_2                100.00%    passed      -nan%
+  35  D_jimi_1                       100.00%    passed      -nan%
+  36  D_araguaya_I_1                 100.00%    passed      -nan%
+  37  D_araguaya_I_2                 100.00%    passed      -nan%
+  38  D_jimi_2                       100.00%    passed      -nan%
+  39  D_cerradensis_1                100.00%    passed      -nan%
+  40  D_cerradensis_2                100.00%    passed      -nan%
+  41  D_rozenmani_1                  100.00%    passed      -nan%
+  42  D_rozenmani_2                  100.00%    passed      -nan%
+  43  D_studerae_1                   100.00%    passed      -nan%
+  44  D_anataliasiasi_1              100.00%    passed      -nan%
+  45  D_gaucheri_1                   100.00%    passed      -nan%
+  46  D_pseudomeridianus_1           100.00%    passed      -nan%
+  47  D_joannae                      100.00%    passed      -nan%
+  48  D_leali_1                      100.00%    passed      -nan%
+  49  D_parviceps_1                  100.00%    passed      -nan%
+  50  Xenohyla_eugenioi_1            100.00%    passed      -nan%
+  51  D_microcephalus_1              100.00%    passed      -nan%
+  52  D_werneri_1                    100.00%    passed      -nan%
+  53  D_shiwiarum_1                  100.00%    passed      -nan%
+  54  D_reicheli_1                   100.00%    passed      -nan%
+  55  D_coffea                       100.00%    passed      -nan%
+  56  D_walfordi                     100.00%    passed      -nan%
+  57  D_sartori_1                    100.00%    passed      -nan%
+  58  D_robertmertensi               100.00%    passed      -nan%
+  59  D_araguaya_II_1                100.00%    passed      -nan%
+  60  D_anataliasiasi_2              100.00%    passed      -nan%
+  61  D_elianeae_1                   100.00%    passed      -nan%
+  62  D_elianae_3                    100.00%    passed      -nan%
+  63  D_sanborni_1                   100.00%    passed      -nan%
+  64  D_rubicundulus_1               100.00%    passed      -nan%
+  65  D_juliani_1                    100.00%    passed      -nan%
+  66  D_juliani_2                    100.00%    passed      -nan%
+  67  D_rubicundulus_2               100.00%    passed      -nan%
+  68  D_columbianus_1                100.00%    passed      -nan%
+  69  Scarthyla_goinorum_1           100.00%    passed      -nan%
+  70  D_juliani_A_2                  100.00%    passed      -nan%
+  71  D_bilobatus_2                  100.00%    passed      -nan%
+  72  D_cf_tritaeniatus_4            100.00%    passed      -nan%
+  73  D_cf_tritaeniatus_3            100.00%    passed      -nan%
+  74  D_cf_tritaeniatus_2            100.00%    passed      -nan%
+  75  D_cf_tritaeniatus_1            100.00%    passed      -nan%
+  76  D_sanborni_5                   100.00%    passed      -nan%
+  77  D_sanborni_4                   100.00%    passed      -nan%
+  78  D_sanborni_3                   100.00%    passed      -nan%
+  79  D_rubicundulus_18              100.00%    passed      -nan%
+  80  D_rubicundulus_17              100.00%    passed      -nan%
+  81  D_rubicundulus_16              100.00%    passed      -nan%
+  82  D_rubicundulus_15              100.00%    passed      -nan%
+  83  D_rubicundulus_14              100.00%    passed      -nan%
+  84  D_rubicundulus_13              100.00%    passed      -nan%
+  85  D_rubicundulus_12              100.00%    passed      -nan%
+  86  D_rubicundulus_11              100.00%    passed      -nan%
+  87  D_rubicundulus_10              100.00%    passed      -nan%
+  88  D_rubicundulus_9               100.00%    passed      -nan%
+  89  D_rubicundulus_8               100.00%    passed      -nan%
+  90  D_rubicundulus_7               100.00%    passed      -nan%
+  91  D_rubicundulus_6               100.00%    passed      -nan%
+  92  D_rubicundulus_5               100.00%    passed      -nan%
+  93  D_rubicundulus_4               100.00%    passed      -nan%
+  94  D_rubicundulus_3               100.00%    passed      -nan%
+  95  D_rozenmani_6                  100.00%    passed      -nan%
+  96  D_rozenmani_5                  100.00%    passed      -nan%
+  97  D_rozenmani_4                  100.00%    passed      -nan%
+  98  D_rozenmani_3                  100.00%    passed      -nan%
+  99  D_jimi_3                       100.00%    passed      -nan%
+ 100  D_elianae_8                    100.00%    passed      -nan%
+ 101  D_elianae_7                    100.00%    passed      -nan%
+ 102  D_elianae_6                    100.00%    passed      -nan%
+ 103  D_elianae_5                    100.00%    passed      -nan%
+ 104  D_elianae_4                    100.00%    passed      -nan%
+ 105  D_araguaya_II_3                100.00%    passed      -nan%
+ 106  D_anataliasiasi_7              100.00%    passed      -nan%
+ 107  D_anataliasiasi_6              100.00%    passed      -nan%
+ 108  D_anataliasiasi_5              100.00%    passed      -nan%
+ 109  D_anataliasiasi_4              100.00%    passed      -nan%
+ 110  D_anataliasiasi_3              100.00%    passed      -nan%
+ 111  D_bilobatus_1                  100.00%    passed      -nan%
+ 112  D_juliani_A                    100.00%    passed      -nan%
+ 113  D_meridensis                   100.00%    passed      -nan%
+ 114  Itapotihyla_langsdorffi_1      100.00%    passed      -nan%
+ 115  Lysapus_laevis_1               100.00%    passed      -nan%
+WARNING: 93 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           83.39%  22 sequences failed composition chi2 test (p-value<5%; df=4)
+Reading alignment file Drub_MORPH.nex ... Nexus format detected
+Skipping unknown block (MESQUITECHARMODELS)...
+Skipping unknown block (MESQUITE)...
+WARNING: Sequence D_bipunctatus_1_M site 5: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 9: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 9: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 10: {12} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 26: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 30: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 30: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 34: {12} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 35: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 36: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 36: {01} treated as unknown character
+WARNING: Sequence D_elegans site 36: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 36: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 42: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 44: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 45: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 45: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 46: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 46: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 48: {01} treated as unknown character
+WARNING: Sequence D_marmoratus_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 50: {01} treated as unknown character
+WARNING: Sequence D_elegans site 52: {01} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 56: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 57: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 58: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 67: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 69: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 70: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 71: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 72: {12} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 72: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 74: {12} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 76: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 83: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 89: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 90: {012} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 90: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 90: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 94: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 94: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 94: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 98: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 98: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 99: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 100: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 105: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 105: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 106: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 110: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 113: {03} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 117: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 120: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 120: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 120: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 123: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 124: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 126: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 129: {12} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 129: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 140: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 140: {03} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 140: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 140: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 141: {02} treated as unknown character
+WARNING: Sequence D_elegans site 141: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 141: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 141: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 141: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 143: {13} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 143: {13} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 145: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 145: {03} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 145: {03} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 145: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 150: {02} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 152: {02} treated as unknown character
+WARNING: Sequence D_jimi_M site 161: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 162: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 163: {02} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 163: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 165: {01} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 166: {12} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 166: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 168: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 171: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 171: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 172: {12} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 175: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 178: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 178: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 178: {23} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 179: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 187: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 198: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 200: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 200: {01} treated as unknown character
+WARNING: Sequence D_elegans site 200: {01} treated as unknown character
+Alignment has 115 sequences with 201 columns, 198 distinct patterns
+172 parsimony-informative, 24 singleton sites, 5 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0128188 secs using 1.094e+04% CPU
+   1  D_marmoratus_1_M                 8.96%    failed      0.26%
+   2  D_ruschii_1_M                    8.46%    failed      0.01%
+   3  D_jimi_M                        20.40%    failed      0.01%
+   4  D_elianeae_2_M                  20.90%    failed      0.05%
+   5  D_sanborni_2_M                  16.42%    failed      0.00%
+   6  D_nanus_1                        9.45%    failed      0.07%
+   7  D_rhodopeplus_1_M               10.45%    failed      0.05%
+   8  D_branneri_2_M                  17.91%    failed      0.03%
+   9  D_bipunctatus_1_M               12.44%    failed      0.15%
+  10  D_decipiens_I_M                 13.93%    failed      0.06%
+  11  D_minutus_I_M                   12.44%    failed      0.03%
+  12  D_triangulum_1_M                 9.45%    failed      0.08%
+  13  D_elegans                       10.95%    failed      0.25%
+  14  D_labialis_1_M                   8.96%    failed      0.02%
+  15  D_riveroi_M                     19.40%    failed      0.04%
+  16  Xenohyla_truncata_1_M            9.45%    failed      0.15%
+  17  Sphaenorhynchus_pauloalvini_M    9.45%    failed      0.42%
+  18  Sphaenorhynchus_lacteus_M       15.92%    failed      0.89%
+  19  Scinax_perereca_M               16.92%    failed      0.01%
+  20  Scinax_berthae_M                 8.46%    failed      0.04%
+  21  Pseudis_minutus_M               10.95%    failed      0.21%
+  22  Phyllodytes_luteolous_M         17.91%    failed      0.00%
+  23  D_tritaeniatus_hDNA            100.00%    passed      -nan%
+  24  D_rhea_hDNA                    100.00%    passed      -nan%
+  25  D_minusculus_3                 100.00%    passed      -nan%
+  26  D_minusculus_2                 100.00%    passed      -nan%
+  27  D_minusculus_1                 100.00%    passed      -nan%
+  28  D_cruzi                        100.00%    passed      -nan%
+  29  D_branneri_1                   100.00%    passed      -nan%
+  30  D_mathiassoni_1                100.00%    passed      -nan%
+  31  D_mathiassoni_2                100.00%    passed      -nan%
+  32  D_cachimbo_2                   100.00%    passed      -nan%
+  33  D_cachimbo_1                   100.00%    passed      -nan%
+  34  D_araguaya_II_2                100.00%    passed      -nan%
+  35  D_jimi_1                       100.00%    passed      -nan%
+  36  D_araguaya_I_1                 100.00%    passed      -nan%
+  37  D_araguaya_I_2                 100.00%    passed      -nan%
+  38  D_jimi_2                       100.00%    passed      -nan%
+  39  D_cerradensis_1                100.00%    passed      -nan%
+  40  D_cerradensis_2                100.00%    passed      -nan%
+  41  D_rozenmani_1                  100.00%    passed      -nan%
+  42  D_rozenmani_2                  100.00%    passed      -nan%
+  43  D_studerae_1                   100.00%    passed      -nan%
+  44  D_anataliasiasi_1              100.00%    passed      -nan%
+  45  D_gaucheri_1                   100.00%    passed      -nan%
+  46  D_pseudomeridianus_1           100.00%    passed      -nan%
+  47  D_joannae                      100.00%    passed      -nan%
+  48  D_leali_1                      100.00%    passed      -nan%
+  49  D_parviceps_1                  100.00%    passed      -nan%
+  50  Xenohyla_eugenioi_1            100.00%    passed      -nan%
+  51  D_microcephalus_1              100.00%    passed      -nan%
+  52  D_werneri_1                    100.00%    passed      -nan%
+  53  D_shiwiarum_1                  100.00%    passed      -nan%
+  54  D_reicheli_1                   100.00%    passed      -nan%
+  55  D_coffea                       100.00%    passed      -nan%
+  56  D_walfordi                     100.00%    passed      -nan%
+  57  D_sartori_1                    100.00%    passed      -nan%
+  58  D_robertmertensi               100.00%    passed      -nan%
+  59  D_araguaya_II_1                100.00%    passed      -nan%
+  60  D_anataliasiasi_2              100.00%    passed      -nan%
+  61  D_elianeae_1                   100.00%    passed      -nan%
+  62  D_elianae_3                    100.00%    passed      -nan%
+  63  D_sanborni_1                   100.00%    passed      -nan%
+  64  D_rubicundulus_1               100.00%    passed      -nan%
+  65  D_juliani_1                    100.00%    passed      -nan%
+  66  D_juliani_2                    100.00%    passed      -nan%
+  67  D_rubicundulus_2               100.00%    passed      -nan%
+  68  D_columbianus_1                100.00%    passed      -nan%
+  69  Scarthyla_goinorum_1           100.00%    passed      -nan%
+  70  D_juliani_A_2                  100.00%    passed      -nan%
+  71  D_bilobatus_2                  100.00%    passed      -nan%
+  72  D_cf_tritaeniatus_4            100.00%    passed      -nan%
+  73  D_cf_tritaeniatus_3            100.00%    passed      -nan%
+  74  D_cf_tritaeniatus_2            100.00%    passed      -nan%
+  75  D_cf_tritaeniatus_1            100.00%    passed      -nan%
+  76  D_sanborni_5                   100.00%    passed      -nan%
+  77  D_sanborni_4                   100.00%    passed      -nan%
+  78  D_sanborni_3                   100.00%    passed      -nan%
+  79  D_rubicundulus_18              100.00%    passed      -nan%
+  80  D_rubicundulus_17              100.00%    passed      -nan%
+  81  D_rubicundulus_16              100.00%    passed      -nan%
+  82  D_rubicundulus_15              100.00%    passed      -nan%
+  83  D_rubicundulus_14              100.00%    passed      -nan%
+  84  D_rubicundulus_13              100.00%    passed      -nan%
+  85  D_rubicundulus_12              100.00%    passed      -nan%
+  86  D_rubicundulus_11              100.00%    passed      -nan%
+  87  D_rubicundulus_10              100.00%    passed      -nan%
+  88  D_rubicundulus_9               100.00%    passed      -nan%
+  89  D_rubicundulus_8               100.00%    passed      -nan%
+  90  D_rubicundulus_7               100.00%    passed      -nan%
+  91  D_rubicundulus_6               100.00%    passed      -nan%
+  92  D_rubicundulus_5               100.00%    passed      -nan%
+  93  D_rubicundulus_4               100.00%    passed      -nan%
+  94  D_rubicundulus_3               100.00%    passed      -nan%
+  95  D_rozenmani_6                  100.00%    passed      -nan%
+  96  D_rozenmani_5                  100.00%    passed      -nan%
+  97  D_rozenmani_4                  100.00%    passed      -nan%
+  98  D_rozenmani_3                  100.00%    passed      -nan%
+  99  D_jimi_3                       100.00%    passed      -nan%
+ 100  D_elianae_8                    100.00%    passed      -nan%
+ 101  D_elianae_7                    100.00%    passed      -nan%
+ 102  D_elianae_6                    100.00%    passed      -nan%
+ 103  D_elianae_5                    100.00%    passed      -nan%
+ 104  D_elianae_4                    100.00%    passed      -nan%
+ 105  D_araguaya_II_3                100.00%    passed      -nan%
+ 106  D_anataliasiasi_7              100.00%    passed      -nan%
+ 107  D_anataliasiasi_6              100.00%    passed      -nan%
+ 108  D_anataliasiasi_5              100.00%    passed      -nan%
+ 109  D_anataliasiasi_4              100.00%    passed      -nan%
+ 110  D_anataliasiasi_3              100.00%    passed      -nan%
+ 111  D_bilobatus_1                  100.00%    passed      -nan%
+ 112  D_juliani_A                    100.00%    passed      -nan%
+ 113  D_meridensis                   100.00%    passed      -nan%
+ 114  Itapotihyla_langsdorffi_1      100.00%    passed      -nan%
+ 115  Lysapus_laevis_1               100.00%    passed      -nan%
+WARNING: 93 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           83.39%  22 sequences failed composition chi2 test (p-value<5%; df=4)
+Reading alignment file Drub_MORPH.nex ... Nexus format detected
+Skipping unknown block (MESQUITECHARMODELS)...
+Skipping unknown block (MESQUITE)...
+WARNING: Sequence D_bipunctatus_1_M site 5: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 9: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 9: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 10: {12} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 26: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 30: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 30: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 34: {12} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 35: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 36: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 36: {01} treated as unknown character
+WARNING: Sequence D_elegans site 36: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 36: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 42: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 44: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 45: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 45: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 46: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 46: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 48: {01} treated as unknown character
+WARNING: Sequence D_marmoratus_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 50: {01} treated as unknown character
+WARNING: Sequence D_elegans site 52: {01} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 56: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 57: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 58: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 67: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 69: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 70: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 71: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 72: {12} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 72: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 74: {12} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 76: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 83: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 89: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 90: {012} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 90: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 90: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 94: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 94: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 94: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 98: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 98: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 99: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 100: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 105: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 105: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 106: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 110: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 113: {03} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 117: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 120: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 120: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 120: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 123: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 124: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 126: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 129: {12} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 129: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 140: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 140: {03} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 140: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 140: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 141: {02} treated as unknown character
+WARNING: Sequence D_elegans site 141: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 141: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 141: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 141: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 143: {13} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 143: {13} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 145: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 145: {03} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 145: {03} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 145: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 150: {02} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 152: {02} treated as unknown character
+WARNING: Sequence D_jimi_M site 161: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 162: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 163: {02} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 163: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 165: {01} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 166: {12} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 166: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 168: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 171: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 171: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 172: {12} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 175: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 178: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 178: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 178: {23} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 179: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 187: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 198: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 200: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 200: {01} treated as unknown character
+WARNING: Sequence D_elegans site 200: {01} treated as unknown character
+Alignment has 115 sequences with 201 columns, 198 distinct patterns
+172 parsimony-informative, 24 singleton sites, 5 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0128243 secs using 1.037e+04% CPU
+   1  D_marmoratus_1_M                 8.96%    failed      0.26%
+   2  D_ruschii_1_M                    8.46%    failed      0.01%
+   3  D_jimi_M                        20.40%    failed      0.01%
+   4  D_elianeae_2_M                  20.90%    failed      0.05%
+   5  D_sanborni_2_M                  16.42%    failed      0.00%
+   6  D_nanus_1                        9.45%    failed      0.07%
+   7  D_rhodopeplus_1_M               10.45%    failed      0.05%
+   8  D_branneri_2_M                  17.91%    failed      0.03%
+   9  D_bipunctatus_1_M               12.44%    failed      0.15%
+  10  D_decipiens_I_M                 13.93%    failed      0.06%
+  11  D_minutus_I_M                   12.44%    failed      0.03%
+  12  D_triangulum_1_M                 9.45%    failed      0.08%
+  13  D_elegans                       10.95%    failed      0.25%
+  14  D_labialis_1_M                   8.96%    failed      0.02%
+  15  D_riveroi_M                     19.40%    failed      0.04%
+  16  Xenohyla_truncata_1_M            9.45%    failed      0.15%
+  17  Sphaenorhynchus_pauloalvini_M    9.45%    failed      0.42%
+  18  Sphaenorhynchus_lacteus_M       15.92%    failed      0.89%
+  19  Scinax_perereca_M               16.92%    failed      0.01%
+  20  Scinax_berthae_M                 8.46%    failed      0.04%
+  21  Pseudis_minutus_M               10.95%    failed      0.21%
+  22  Phyllodytes_luteolous_M         17.91%    failed      0.00%
+  23  D_tritaeniatus_hDNA            100.00%    passed      -nan%
+  24  D_rhea_hDNA                    100.00%    passed      -nan%
+  25  D_minusculus_3                 100.00%    passed      -nan%
+  26  D_minusculus_2                 100.00%    passed      -nan%
+  27  D_minusculus_1                 100.00%    passed      -nan%
+  28  D_cruzi                        100.00%    passed      -nan%
+  29  D_branneri_1                   100.00%    passed      -nan%
+  30  D_mathiassoni_1                100.00%    passed      -nan%
+  31  D_mathiassoni_2                100.00%    passed      -nan%
+  32  D_cachimbo_2                   100.00%    passed      -nan%
+  33  D_cachimbo_1                   100.00%    passed      -nan%
+  34  D_araguaya_II_2                100.00%    passed      -nan%
+  35  D_jimi_1                       100.00%    passed      -nan%
+  36  D_araguaya_I_1                 100.00%    passed      -nan%
+  37  D_araguaya_I_2                 100.00%    passed      -nan%
+  38  D_jimi_2                       100.00%    passed      -nan%
+  39  D_cerradensis_1                100.00%    passed      -nan%
+  40  D_cerradensis_2                100.00%    passed      -nan%
+  41  D_rozenmani_1                  100.00%    passed      -nan%
+  42  D_rozenmani_2                  100.00%    passed      -nan%
+  43  D_studerae_1                   100.00%    passed      -nan%
+  44  D_anataliasiasi_1              100.00%    passed      -nan%
+  45  D_gaucheri_1                   100.00%    passed      -nan%
+  46  D_pseudomeridianus_1           100.00%    passed      -nan%
+  47  D_joannae                      100.00%    passed      -nan%
+  48  D_leali_1                      100.00%    passed      -nan%
+  49  D_parviceps_1                  100.00%    passed      -nan%
+  50  Xenohyla_eugenioi_1            100.00%    passed      -nan%
+  51  D_microcephalus_1              100.00%    passed      -nan%
+  52  D_werneri_1                    100.00%    passed      -nan%
+  53  D_shiwiarum_1                  100.00%    passed      -nan%
+  54  D_reicheli_1                   100.00%    passed      -nan%
+  55  D_coffea                       100.00%    passed      -nan%
+  56  D_walfordi                     100.00%    passed      -nan%
+  57  D_sartori_1                    100.00%    passed      -nan%
+  58  D_robertmertensi               100.00%    passed      -nan%
+  59  D_araguaya_II_1                100.00%    passed      -nan%
+  60  D_anataliasiasi_2              100.00%    passed      -nan%
+  61  D_elianeae_1                   100.00%    passed      -nan%
+  62  D_elianae_3                    100.00%    passed      -nan%
+  63  D_sanborni_1                   100.00%    passed      -nan%
+  64  D_rubicundulus_1               100.00%    passed      -nan%
+  65  D_juliani_1                    100.00%    passed      -nan%
+  66  D_juliani_2                    100.00%    passed      -nan%
+  67  D_rubicundulus_2               100.00%    passed      -nan%
+  68  D_columbianus_1                100.00%    passed      -nan%
+  69  Scarthyla_goinorum_1           100.00%    passed      -nan%
+  70  D_juliani_A_2                  100.00%    passed      -nan%
+  71  D_bilobatus_2                  100.00%    passed      -nan%
+  72  D_cf_tritaeniatus_4            100.00%    passed      -nan%
+  73  D_cf_tritaeniatus_3            100.00%    passed      -nan%
+  74  D_cf_tritaeniatus_2            100.00%    passed      -nan%
+  75  D_cf_tritaeniatus_1            100.00%    passed      -nan%
+  76  D_sanborni_5                   100.00%    passed      -nan%
+  77  D_sanborni_4                   100.00%    passed      -nan%
+  78  D_sanborni_3                   100.00%    passed      -nan%
+  79  D_rubicundulus_18              100.00%    passed      -nan%
+  80  D_rubicundulus_17              100.00%    passed      -nan%
+  81  D_rubicundulus_16              100.00%    passed      -nan%
+  82  D_rubicundulus_15              100.00%    passed      -nan%
+  83  D_rubicundulus_14              100.00%    passed      -nan%
+  84  D_rubicundulus_13              100.00%    passed      -nan%
+  85  D_rubicundulus_12              100.00%    passed      -nan%
+  86  D_rubicundulus_11              100.00%    passed      -nan%
+  87  D_rubicundulus_10              100.00%    passed      -nan%
+  88  D_rubicundulus_9               100.00%    passed      -nan%
+  89  D_rubicundulus_8               100.00%    passed      -nan%
+  90  D_rubicundulus_7               100.00%    passed      -nan%
+  91  D_rubicundulus_6               100.00%    passed      -nan%
+  92  D_rubicundulus_5               100.00%    passed      -nan%
+  93  D_rubicundulus_4               100.00%    passed      -nan%
+  94  D_rubicundulus_3               100.00%    passed      -nan%
+  95  D_rozenmani_6                  100.00%    passed      -nan%
+  96  D_rozenmani_5                  100.00%    passed      -nan%
+  97  D_rozenmani_4                  100.00%    passed      -nan%
+  98  D_rozenmani_3                  100.00%    passed      -nan%
+  99  D_jimi_3                       100.00%    passed      -nan%
+ 100  D_elianae_8                    100.00%    passed      -nan%
+ 101  D_elianae_7                    100.00%    passed      -nan%
+ 102  D_elianae_6                    100.00%    passed      -nan%
+ 103  D_elianae_5                    100.00%    passed      -nan%
+ 104  D_elianae_4                    100.00%    passed      -nan%
+ 105  D_araguaya_II_3                100.00%    passed      -nan%
+ 106  D_anataliasiasi_7              100.00%    passed      -nan%
+ 107  D_anataliasiasi_6              100.00%    passed      -nan%
+ 108  D_anataliasiasi_5              100.00%    passed      -nan%
+ 109  D_anataliasiasi_4              100.00%    passed      -nan%
+ 110  D_anataliasiasi_3              100.00%    passed      -nan%
+ 111  D_bilobatus_1                  100.00%    passed      -nan%
+ 112  D_juliani_A                    100.00%    passed      -nan%
+ 113  D_meridensis                   100.00%    passed      -nan%
+ 114  Itapotihyla_langsdorffi_1      100.00%    passed      -nan%
+ 115  Lysapus_laevis_1               100.00%    passed      -nan%
+WARNING: 93 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           83.39%  22 sequences failed composition chi2 test (p-value<5%; df=4)
+Reading alignment file Drub_MORPH.nex ... Nexus format detected
+Skipping unknown block (MESQUITECHARMODELS)...
+Skipping unknown block (MESQUITE)...
+WARNING: Sequence D_bipunctatus_1_M site 5: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 9: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 9: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 10: {12} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 26: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 30: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 30: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 34: {12} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 35: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 36: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 36: {01} treated as unknown character
+WARNING: Sequence D_elegans site 36: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 36: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 42: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 44: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 45: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 45: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 46: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 46: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 48: {01} treated as unknown character
+WARNING: Sequence D_marmoratus_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 50: {01} treated as unknown character
+WARNING: Sequence D_elegans site 52: {01} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 56: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 57: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 58: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 67: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 69: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 70: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 71: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 72: {12} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 72: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 74: {12} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 76: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 83: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 89: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 90: {012} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 90: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 90: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 94: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 94: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 94: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 98: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 98: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 99: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 100: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 105: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 105: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 106: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 110: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 113: {03} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 117: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 120: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 120: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 120: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 123: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 124: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 126: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 129: {12} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 129: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 140: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 140: {03} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 140: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 140: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 141: {02} treated as unknown character
+WARNING: Sequence D_elegans site 141: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 141: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 141: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 141: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 143: {13} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 143: {13} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 145: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 145: {03} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 145: {03} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 145: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 150: {02} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 152: {02} treated as unknown character
+WARNING: Sequence D_jimi_M site 161: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 162: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 163: {02} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 163: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 165: {01} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 166: {12} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 166: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 168: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 171: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 171: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 172: {12} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 175: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 178: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 178: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 178: {23} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 179: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 187: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 198: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 200: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 200: {01} treated as unknown character
+WARNING: Sequence D_elegans site 200: {01} treated as unknown character
+Alignment has 115 sequences with 201 columns, 198 distinct patterns
+172 parsimony-informative, 24 singleton sites, 5 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.012993 secs using 1.019e+04% CPU
+   1  D_marmoratus_1_M                 8.96%    failed      0.26%
+   2  D_ruschii_1_M                    8.46%    failed      0.01%
+   3  D_jimi_M                        20.40%    failed      0.01%
+   4  D_elianeae_2_M                  20.90%    failed      0.05%
+   5  D_sanborni_2_M                  16.42%    failed      0.00%
+   6  D_nanus_1                        9.45%    failed      0.07%
+   7  D_rhodopeplus_1_M               10.45%    failed      0.05%
+   8  D_branneri_2_M                  17.91%    failed      0.03%
+   9  D_bipunctatus_1_M               12.44%    failed      0.15%
+  10  D_decipiens_I_M                 13.93%    failed      0.06%
+  11  D_minutus_I_M                   12.44%    failed      0.03%
+  12  D_triangulum_1_M                 9.45%    failed      0.08%
+  13  D_elegans                       10.95%    failed      0.25%
+  14  D_labialis_1_M                   8.96%    failed      0.02%
+  15  D_riveroi_M                     19.40%    failed      0.04%
+  16  Xenohyla_truncata_1_M            9.45%    failed      0.15%
+  17  Sphaenorhynchus_pauloalvini_M    9.45%    failed      0.42%
+  18  Sphaenorhynchus_lacteus_M       15.92%    failed      0.89%
+  19  Scinax_perereca_M               16.92%    failed      0.01%
+  20  Scinax_berthae_M                 8.46%    failed      0.04%
+  21  Pseudis_minutus_M               10.95%    failed      0.21%
+  22  Phyllodytes_luteolous_M         17.91%    failed      0.00%
+  23  D_tritaeniatus_hDNA            100.00%    passed      -nan%
+  24  D_rhea_hDNA                    100.00%    passed      -nan%
+  25  D_minusculus_3                 100.00%    passed      -nan%
+  26  D_minusculus_2                 100.00%    passed      -nan%
+  27  D_minusculus_1                 100.00%    passed      -nan%
+  28  D_cruzi                        100.00%    passed      -nan%
+  29  D_branneri_1                   100.00%    passed      -nan%
+  30  D_mathiassoni_1                100.00%    passed      -nan%
+  31  D_mathiassoni_2                100.00%    passed      -nan%
+  32  D_cachimbo_2                   100.00%    passed      -nan%
+  33  D_cachimbo_1                   100.00%    passed      -nan%
+  34  D_araguaya_II_2                100.00%    passed      -nan%
+  35  D_jimi_1                       100.00%    passed      -nan%
+  36  D_araguaya_I_1                 100.00%    passed      -nan%
+  37  D_araguaya_I_2                 100.00%    passed      -nan%
+  38  D_jimi_2                       100.00%    passed      -nan%
+  39  D_cerradensis_1                100.00%    passed      -nan%
+  40  D_cerradensis_2                100.00%    passed      -nan%
+  41  D_rozenmani_1                  100.00%    passed      -nan%
+  42  D_rozenmani_2                  100.00%    passed      -nan%
+  43  D_studerae_1                   100.00%    passed      -nan%
+  44  D_anataliasiasi_1              100.00%    passed      -nan%
+  45  D_gaucheri_1                   100.00%    passed      -nan%
+  46  D_pseudomeridianus_1           100.00%    passed      -nan%
+  47  D_joannae                      100.00%    passed      -nan%
+  48  D_leali_1                      100.00%    passed      -nan%
+  49  D_parviceps_1                  100.00%    passed      -nan%
+  50  Xenohyla_eugenioi_1            100.00%    passed      -nan%
+  51  D_microcephalus_1              100.00%    passed      -nan%
+  52  D_werneri_1                    100.00%    passed      -nan%
+  53  D_shiwiarum_1                  100.00%    passed      -nan%
+  54  D_reicheli_1                   100.00%    passed      -nan%
+  55  D_coffea                       100.00%    passed      -nan%
+  56  D_walfordi                     100.00%    passed      -nan%
+  57  D_sartori_1                    100.00%    passed      -nan%
+  58  D_robertmertensi               100.00%    passed      -nan%
+  59  D_araguaya_II_1                100.00%    passed      -nan%
+  60  D_anataliasiasi_2              100.00%    passed      -nan%
+  61  D_elianeae_1                   100.00%    passed      -nan%
+  62  D_elianae_3                    100.00%    passed      -nan%
+  63  D_sanborni_1                   100.00%    passed      -nan%
+  64  D_rubicundulus_1               100.00%    passed      -nan%
+  65  D_juliani_1                    100.00%    passed      -nan%
+  66  D_juliani_2                    100.00%    passed      -nan%
+  67  D_rubicundulus_2               100.00%    passed      -nan%
+  68  D_columbianus_1                100.00%    passed      -nan%
+  69  Scarthyla_goinorum_1           100.00%    passed      -nan%
+  70  D_juliani_A_2                  100.00%    passed      -nan%
+  71  D_bilobatus_2                  100.00%    passed      -nan%
+  72  D_cf_tritaeniatus_4            100.00%    passed      -nan%
+  73  D_cf_tritaeniatus_3            100.00%    passed      -nan%
+  74  D_cf_tritaeniatus_2            100.00%    passed      -nan%
+  75  D_cf_tritaeniatus_1            100.00%    passed      -nan%
+  76  D_sanborni_5                   100.00%    passed      -nan%
+  77  D_sanborni_4                   100.00%    passed      -nan%
+  78  D_sanborni_3                   100.00%    passed      -nan%
+  79  D_rubicundulus_18              100.00%    passed      -nan%
+  80  D_rubicundulus_17              100.00%    passed      -nan%
+  81  D_rubicundulus_16              100.00%    passed      -nan%
+  82  D_rubicundulus_15              100.00%    passed      -nan%
+  83  D_rubicundulus_14              100.00%    passed      -nan%
+  84  D_rubicundulus_13              100.00%    passed      -nan%
+  85  D_rubicundulus_12              100.00%    passed      -nan%
+  86  D_rubicundulus_11              100.00%    passed      -nan%
+  87  D_rubicundulus_10              100.00%    passed      -nan%
+  88  D_rubicundulus_9               100.00%    passed      -nan%
+  89  D_rubicundulus_8               100.00%    passed      -nan%
+  90  D_rubicundulus_7               100.00%    passed      -nan%
+  91  D_rubicundulus_6               100.00%    passed      -nan%
+  92  D_rubicundulus_5               100.00%    passed      -nan%
+  93  D_rubicundulus_4               100.00%    passed      -nan%
+  94  D_rubicundulus_3               100.00%    passed      -nan%
+  95  D_rozenmani_6                  100.00%    passed      -nan%
+  96  D_rozenmani_5                  100.00%    passed      -nan%
+  97  D_rozenmani_4                  100.00%    passed      -nan%
+  98  D_rozenmani_3                  100.00%    passed      -nan%
+  99  D_jimi_3                       100.00%    passed      -nan%
+ 100  D_elianae_8                    100.00%    passed      -nan%
+ 101  D_elianae_7                    100.00%    passed      -nan%
+ 102  D_elianae_6                    100.00%    passed      -nan%
+ 103  D_elianae_5                    100.00%    passed      -nan%
+ 104  D_elianae_4                    100.00%    passed      -nan%
+ 105  D_araguaya_II_3                100.00%    passed      -nan%
+ 106  D_anataliasiasi_7              100.00%    passed      -nan%
+ 107  D_anataliasiasi_6              100.00%    passed      -nan%
+ 108  D_anataliasiasi_5              100.00%    passed      -nan%
+ 109  D_anataliasiasi_4              100.00%    passed      -nan%
+ 110  D_anataliasiasi_3              100.00%    passed      -nan%
+ 111  D_bilobatus_1                  100.00%    passed      -nan%
+ 112  D_juliani_A                    100.00%    passed      -nan%
+ 113  D_meridensis                   100.00%    passed      -nan%
+ 114  Itapotihyla_langsdorffi_1      100.00%    passed      -nan%
+ 115  Lysapus_laevis_1               100.00%    passed      -nan%
+WARNING: 93 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           83.39%  22 sequences failed composition chi2 test (p-value<5%; df=4)
+Reading alignment file Drub_MORPH.nex ... Nexus format detected
+Skipping unknown block (MESQUITECHARMODELS)...
+Skipping unknown block (MESQUITE)...
+WARNING: Sequence D_bipunctatus_1_M site 5: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 9: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 9: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 10: {12} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 21: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 26: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 30: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 30: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 32: {12} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 33: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 34: {12} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 35: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 36: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 36: {01} treated as unknown character
+WARNING: Sequence D_elegans site 36: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 36: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 42: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 44: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 45: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 45: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 46: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_lacteus_M site 46: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 48: {01} treated as unknown character
+WARNING: Sequence D_marmoratus_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 50: {01} treated as unknown character
+WARNING: Sequence Phyllodytes_luteolous_M site 50: {01} treated as unknown character
+WARNING: Sequence D_elegans site 52: {01} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 56: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 57: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 58: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 67: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 69: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 70: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 71: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 72: {12} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 72: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 74: {12} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 76: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 83: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 89: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 90: {012} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 90: {12} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 90: {12} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 94: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 94: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 94: {01} treated as unknown character
+WARNING: Sequence D_elianeae_2_M site 98: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 98: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 99: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 100: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 105: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 105: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 106: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 109: {01} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 110: {01} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 113: {03} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 117: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 120: {01} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 120: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 120: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 123: {01} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 124: {01} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 126: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 129: {12} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 129: {23} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 140: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 140: {03} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 140: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 140: {01} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 141: {02} treated as unknown character
+WARNING: Sequence D_elegans site 141: {02} treated as unknown character
+WARNING: Sequence D_labialis_1_M site 141: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 141: {02} treated as unknown character
+WARNING: Sequence Pseudis_minutus_M site 141: {01} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 143: {13} treated as unknown character
+WARNING: Sequence Scinax_berthae_M site 143: {13} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 145: {01} treated as unknown character
+WARNING: Sequence D_jimi_M site 145: {03} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 145: {03} treated as unknown character
+WARNING: Sequence D_rhodopeplus_1_M site 145: {03} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 150: {02} treated as unknown character
+WARNING: Sequence Scinax_perereca_M site 152: {02} treated as unknown character
+WARNING: Sequence D_jimi_M site 161: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 161: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 162: {01} treated as unknown character
+WARNING: Sequence D_bipunctatus_1_M site 163: {02} treated as unknown character
+WARNING: Sequence Sphaenorhynchus_pauloalvini_M site 163: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 165: {01} treated as unknown character
+WARNING: Sequence D_triangulum_1_M site 166: {12} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 166: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 168: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 171: {12} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 171: {01} treated as unknown character
+WARNING: Sequence D_ruschii_1_M site 172: {12} treated as unknown character
+WARNING: Sequence D_decipiens_I_M site 175: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 178: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 178: {02} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 178: {23} treated as unknown character
+WARNING: Sequence D_minutus_I_M site 179: {01} treated as unknown character
+WARNING: Sequence D_sanborni_2_M site 187: {01} treated as unknown character
+WARNING: Sequence Xenohyla_truncata_1_M site 198: {01} treated as unknown character
+WARNING: Sequence D_nanus_1 site 200: {01} treated as unknown character
+WARNING: Sequence D_branneri_2_M site 200: {01} treated as unknown character
+WARNING: Sequence D_elegans site 200: {01} treated as unknown character
+Alignment has 115 sequences with 201 columns, 198 distinct patterns
+172 parsimony-informative, 24 singleton sites, 5 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00942481 secs using 1.03e+04% CPU
+   1  D_marmoratus_1_M                 8.96%    failed      0.26%
+   2  D_ruschii_1_M                    8.46%    failed      0.01%
+   3  D_jimi_M                        20.40%    failed      0.01%
+   4  D_elianeae_2_M                  20.90%    failed      0.05%
+   5  D_sanborni_2_M                  16.42%    failed      0.00%
+   6  D_nanus_1                        9.45%    failed      0.07%
+   7  D_rhodopeplus_1_M               10.45%    failed      0.05%
+   8  D_branneri_2_M                  17.91%    failed      0.03%
+   9  D_bipunctatus_1_M               12.44%    failed      0.15%
+  10  D_decipiens_I_M                 13.93%    failed      0.06%
+  11  D_minutus_I_M                   12.44%    failed      0.03%
+  12  D_triangulum_1_M                 9.45%    failed      0.08%
+  13  D_elegans                       10.95%    failed      0.25%
+  14  D_labialis_1_M                   8.96%    failed      0.02%
+  15  D_riveroi_M                     19.40%    failed      0.04%
+  16  Xenohyla_truncata_1_M            9.45%    failed      0.15%
+  17  Sphaenorhynchus_pauloalvini_M    9.45%    failed      0.42%
+  18  Sphaenorhynchus_lacteus_M       15.92%    failed      0.89%
+  19  Scinax_perereca_M               16.92%    failed      0.01%
+  20  Scinax_berthae_M                 8.46%    failed      0.04%
+  21  Pseudis_minutus_M               10.95%    failed      0.21%
+  22  Phyllodytes_luteolous_M         17.91%    failed      0.00%
+  23  D_tritaeniatus_hDNA            100.00%    passed      -nan%
+  24  D_rhea_hDNA                    100.00%    passed      -nan%
+  25  D_minusculus_3                 100.00%    passed      -nan%
+  26  D_minusculus_2                 100.00%    passed      -nan%
+  27  D_minusculus_1                 100.00%    passed      -nan%
+  28  D_cruzi                        100.00%    passed      -nan%
+  29  D_branneri_1                   100.00%    passed      -nan%
+  30  D_mathiassoni_1                100.00%    passed      -nan%
+  31  D_mathiassoni_2                100.00%    passed      -nan%
+  32  D_cachimbo_2                   100.00%    passed      -nan%
+  33  D_cachimbo_1                   100.00%    passed      -nan%
+  34  D_araguaya_II_2                100.00%    passed      -nan%
+  35  D_jimi_1                       100.00%    passed      -nan%
+  36  D_araguaya_I_1                 100.00%    passed      -nan%
+  37  D_araguaya_I_2                 100.00%    passed      -nan%
+  38  D_jimi_2                       100.00%    passed      -nan%
+  39  D_cerradensis_1                100.00%    passed      -nan%
+  40  D_cerradensis_2                100.00%    passed      -nan%
+  41  D_rozenmani_1                  100.00%    passed      -nan%
+  42  D_rozenmani_2                  100.00%    passed      -nan%
+  43  D_studerae_1                   100.00%    passed      -nan%
+  44  D_anataliasiasi_1              100.00%    passed      -nan%
+  45  D_gaucheri_1                   100.00%    passed      -nan%
+  46  D_pseudomeridianus_1           100.00%    passed      -nan%
+  47  D_joannae                      100.00%    passed      -nan%
+  48  D_leali_1                      100.00%    passed      -nan%
+  49  D_parviceps_1                  100.00%    passed      -nan%
+  50  Xenohyla_eugenioi_1            100.00%    passed      -nan%
+  51  D_microcephalus_1              100.00%    passed      -nan%
+  52  D_werneri_1                    100.00%    passed      -nan%
+  53  D_shiwiarum_1                  100.00%    passed      -nan%
+  54  D_reicheli_1                   100.00%    passed      -nan%
+  55  D_coffea                       100.00%    passed      -nan%
+  56  D_walfordi                     100.00%    passed      -nan%
+  57  D_sartori_1                    100.00%    passed      -nan%
+  58  D_robertmertensi               100.00%    passed      -nan%
+  59  D_araguaya_II_1                100.00%    passed      -nan%
+  60  D_anataliasiasi_2              100.00%    passed      -nan%
+  61  D_elianeae_1                   100.00%    passed      -nan%
+  62  D_elianae_3                    100.00%    passed      -nan%
+  63  D_sanborni_1                   100.00%    passed      -nan%
+  64  D_rubicundulus_1               100.00%    passed      -nan%
+  65  D_juliani_1                    100.00%    passed      -nan%
+  66  D_juliani_2                    100.00%    passed      -nan%
+  67  D_rubicundulus_2               100.00%    passed      -nan%
+  68  D_columbianus_1                100.00%    passed      -nan%
+  69  Scarthyla_goinorum_1           100.00%    passed      -nan%
+  70  D_juliani_A_2                  100.00%    passed      -nan%
+  71  D_bilobatus_2                  100.00%    passed      -nan%
+  72  D_cf_tritaeniatus_4            100.00%    passed      -nan%
+  73  D_cf_tritaeniatus_3            100.00%    passed      -nan%
+  74  D_cf_tritaeniatus_2            100.00%    passed      -nan%
+  75  D_cf_tritaeniatus_1            100.00%    passed      -nan%
+  76  D_sanborni_5                   100.00%    passed      -nan%
+  77  D_sanborni_4                   100.00%    passed      -nan%
+  78  D_sanborni_3                   100.00%    passed      -nan%
+  79  D_rubicundulus_18              100.00%    passed      -nan%
+  80  D_rubicundulus_17              100.00%    passed      -nan%
+  81  D_rubicundulus_16              100.00%    passed      -nan%
+  82  D_rubicundulus_15              100.00%    passed      -nan%
+  83  D_rubicundulus_14              100.00%    passed      -nan%
+  84  D_rubicundulus_13              100.00%    passed      -nan%
+  85  D_rubicundulus_12              100.00%    passed      -nan%
+  86  D_rubicundulus_11              100.00%    passed      -nan%
+  87  D_rubicundulus_10              100.00%    passed      -nan%
+  88  D_rubicundulus_9               100.00%    passed      -nan%
+  89  D_rubicundulus_8               100.00%    passed      -nan%
+  90  D_rubicundulus_7               100.00%    passed      -nan%
+  91  D_rubicundulus_6               100.00%    passed      -nan%
+  92  D_rubicundulus_5               100.00%    passed      -nan%
+  93  D_rubicundulus_4               100.00%    passed      -nan%
+  94  D_rubicundulus_3               100.00%    passed      -nan%
+  95  D_rozenmani_6                  100.00%    passed      -nan%
+  96  D_rozenmani_5                  100.00%    passed      -nan%
+  97  D_rozenmani_4                  100.00%    passed      -nan%
+  98  D_rozenmani_3                  100.00%    passed      -nan%
+  99  D_jimi_3                       100.00%    passed      -nan%
+ 100  D_elianae_8                    100.00%    passed      -nan%
+ 101  D_elianae_7                    100.00%    passed      -nan%
+ 102  D_elianae_6                    100.00%    passed      -nan%
+ 103  D_elianae_5                    100.00%    passed      -nan%
+ 104  D_elianae_4                    100.00%    passed      -nan%
+ 105  D_araguaya_II_3                100.00%    passed      -nan%
+ 106  D_anataliasiasi_7              100.00%    passed      -nan%
+ 107  D_anataliasiasi_6              100.00%    passed      -nan%
+ 108  D_anataliasiasi_5              100.00%    passed      -nan%
+ 109  D_anataliasiasi_4              100.00%    passed      -nan%
+ 110  D_anataliasiasi_3              100.00%    passed      -nan%
+ 111  D_bilobatus_1                  100.00%    passed      -nan%
+ 112  D_juliani_A                    100.00%    passed      -nan%
+ 113  D_meridensis                   100.00%    passed      -nan%
+ 114  Itapotihyla_langsdorffi_1      100.00%    passed      -nan%
+ 115  Lysapus_laevis_1               100.00%    passed      -nan%
+WARNING: 93 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           83.39%  22 sequences failed composition chi2 test (p-value<5%; df=4)
+Reading alignment file Drub_MOL3.fas ... Fasta format detected
+Reading fasta file: done in 0.0161785 secs using 5258% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 34 sites contain only gaps or ambiguous characters.
+Alignment has 115 sequences with 6623 columns, 2734 distinct patterns
+1870 parsimony-informative, 542 singleton sites, 4211 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0129543 secs using 1.066e+04% CPU
+   1  D_marmoratus_1_M                27.25%    passed     70.71%
+   2  D_ruschii_1_M                   36.92%    passed      7.14%
+   3  D_jimi_M                        29.00%    passed      7.48%
+   4  D_elianeae_2_M                  20.46%    passed      5.99%
+   5  D_sanborni_2_M                  32.57%    passed     65.04%
+   6  D_nanus_1                       17.74%    passed     39.90%
+   7  D_rhodopeplus_1_M               32.99%    failed      2.29%
+   8  D_branneri_2_M                   9.27%    passed      7.21%
+   9  D_bipunctatus_1_M               17.14%    passed     19.23%
+  10  D_decipiens_I_M                 55.52%    passed      5.62%
+  11  D_minutus_I_M                   40.78%    failed      1.08%
+  12  D_triangulum_1_M                38.50%    passed     56.82%
+  13  D_elegans                       34.67%    passed     33.93%
+  14  D_labialis_1_M                  33.60%    passed     23.21%
+  15  D_riveroi_M                     48.39%    passed     20.61%
+  16  Xenohyla_truncata_1_M           31.33%    passed     48.39%
+  17  Sphaenorhynchus_pauloalvini_M   31.66%    failed      0.00%
+  18  Sphaenorhynchus_lacteus_M       22.33%    failed      0.92%
+  19  Scinax_perereca_M               23.83%    passed     48.33%
+  20  Scinax_berthae_M                46.97%    passed     36.67%
+  21  Pseudis_minutus_M               48.44%    passed     16.69%
+  22  Phyllodytes_luteolous_M         16.34%    passed     53.01%
+  23  D_tritaeniatus_hDNA             40.59%    failed      0.04%
+  24  D_rhea_hDNA                     40.42%    failed      0.03%
+  25  D_minusculus_3                  45.78%    passed     94.65%
+  26  D_minusculus_2                  29.58%    passed     16.63%
+  27  D_minusculus_1                  23.96%    passed      8.08%
+  28  D_cruzi                         16.22%    passed     14.73%
+  29  D_branneri_1                    25.03%    failed      1.34%
+  30  D_mathiassoni_1                 28.60%    passed     76.90%
+  31  D_mathiassoni_2                 15.93%    passed     53.08%
+  32  D_cachimbo_2                    29.49%    passed      8.24%
+  33  D_cachimbo_1                    23.48%    passed     23.85%
+  34  D_araguaya_II_2                 23.81%    passed     29.63%
+  35  D_jimi_1                        28.93%    passed      8.29%
+  36  D_araguaya_I_1                  21.50%    passed      9.82%
+  37  D_araguaya_I_2                  24.04%    failed      1.56%
+  38  D_jimi_2                        23.78%    failed      3.33%
+  39  D_cerradensis_1                 22.35%    passed     16.97%
+  40  D_cerradensis_2                 21.50%    passed     15.38%
+  41  D_rozenmani_1                   53.74%    passed     63.89%
+  42  D_rozenmani_2                   53.74%    passed     58.44%
+  43  D_studerae_1                    36.36%    passed     21.85%
+  44  D_anataliasiasi_1               31.66%    passed     63.22%
+  45  D_gaucheri_1                    41.82%    failed      2.70%
+  46  D_pseudomeridianus_1            23.83%    passed     23.96%
+  47  D_joannae                       15.97%    failed      0.52%
+  48  D_leali_1                       41.82%    passed     18.05%
+  49  D_parviceps_1                   23.55%    failed      2.15%
+  50  Xenohyla_eugenioi_1             53.80%    passed     20.10%
+  51  D_microcephalus_1               33.85%    passed     65.68%
+  52  D_werneri_1                     45.13%    passed     19.16%
+  53  D_shiwiarum_1                   64.43%    failed      4.25%
+  54  D_reicheli_1                    51.56%    passed     25.89%
+  55  D_coffea                        51.09%    failed      4.99%
+  56  D_walfordi                      53.06%    passed     39.68%
+  57  D_sartori_1                     45.19%    passed     22.43%
+  58  D_robertmertensi                52.35%    passed     45.44%
+  59  D_araguaya_II_1                 37.04%    passed     64.38%
+  60  D_anataliasiasi_2               46.13%    passed     23.19%
+  61  D_elianeae_1                    37.07%    passed     62.30%
+  62  D_elianae_3                     46.57%    passed     48.25%
+  63  D_sanborni_1                    37.72%    passed     64.24%
+  64  D_rubicundulus_1                45.09%    passed     39.23%
+  65  D_juliani_1                     45.15%    passed     50.97%
+  66  D_juliani_2                     45.15%    passed     49.38%
+  67  D_rubicundulus_2                18.84%    passed     90.37%
+  68  D_columbianus_1                 33.79%    failed      0.77%
+  69  Scarthyla_goinorum_1            52.94%    passed     25.85%
+  70  D_juliani_A_2                   91.97%    passed     75.09%
+  71  D_bilobatus_2                   91.98%    passed     62.67%
+  72  D_cf_tritaeniatus_4             92.09%    passed     68.38%
+  73  D_cf_tritaeniatus_3             92.12%    passed     67.94%
+  74  D_cf_tritaeniatus_2             91.97%    passed     76.03%
+  75  D_cf_tritaeniatus_1             92.68%    passed     77.68%
+  76  D_sanborni_5                    91.97%    passed     78.75%
+  77  D_sanborni_4                    91.97%    passed     73.12%
+  78  D_sanborni_3                    91.95%    passed     66.24%
+  79  D_rubicundulus_18               91.98%    passed     72.67%
+  80  D_rubicundulus_17               92.98%    passed     76.73%
+  81  D_rubicundulus_16               92.36%    passed     71.30%
+  82  D_rubicundulus_15               92.12%    passed     67.85%
+  83  D_rubicundulus_C4               92.65%    passed     65.45%
+  84  D_rubicundulus_13               92.86%    passed     65.55%
+  85  D_rubicundulus_12               91.98%    passed     75.70%
+  86  D_rubicundulus_11               91.98%    passed     39.52%
+  87  D_rubicundulus_10               91.97%    passed     35.82%
+  88  D_rubicundulus_9                92.12%    passed     64.40%
+  89  D_rubicundulus_8                92.10%    passed     54.99%
+  90  D_rubicundulus_7                91.97%    passed     40.21%
+  91  D_rubicundulus_6                91.98%    passed     32.87%
+  92  D_rubicundulus_5                92.09%    passed     25.28%
+  93  D_rubicundulus_4                92.63%    passed     36.80%
+  94  D_rubicundulus_3                91.98%    passed     74.09%
+  95  D_rozenmani_6                   91.97%    passed     65.51%
+  96  D_rozenmani_5                   91.97%    passed     66.49%
+  97  D_rozenmani_4                   91.97%    passed     66.49%
+  98  D_rozenmani_3                   91.97%    passed     65.51%
+  99  D_jimi_3                        92.65%    passed     58.00%
+ 100  D_elianae_8                     92.80%    passed     83.24%
+ 101  D_elianae_7                     92.81%    passed     78.29%
+ 102  D_elianae_6                     91.95%    passed     81.21%
+ 103  D_elianae_5                     91.95%    passed     72.08%
+ 104  D_elianae_4                     91.97%    passed     79.05%
+ 105  D_araguaya_II_3                 91.95%    passed     56.79%
+ 106  D_anataliasiasi_7               94.91%    passed     52.58%
+ 107  D_anataliasiasi_6               91.95%    passed     72.27%
+ 108  D_anataliasiasi_5               91.97%    passed     76.28%
+ 109  D_anataliasiasi_4               92.34%    passed     66.92%
+ 110  D_anataliasiasi_3               91.97%    passed     72.87%
+ 111  D_bilobatus_1                   92.90%    passed     78.88%
+ 112  D_juliani_A                     91.98%    passed     77.84%
+ 113  D_meridensis                    64.80%    failed      0.00%
+ 114  Itapotihyla_langsdorffi_1       55.55%    failed      0.27%
+ 115  Lysapus_laevis_C                63.60%    failed      1.10%
+WARNING: 56 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           56.95%  18 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Drub_MOL3.fas ... Fasta format detected
+Reading fasta file: done in 0.0192471 secs using 4651% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 34 sites contain only gaps or ambiguous characters.
+Alignment has 115 sequences with 6623 columns, 2734 distinct patterns
+1870 parsimony-informative, 542 singleton sites, 4211 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.014063 secs using 1.014e+04% CPU
+   1  D_marmoratus_1_M                27.25%    passed     70.71%
+   2  D_ruschii_1_M                   36.92%    passed      7.14%
+   3  D_jimi_M                        29.00%    passed      7.48%
+   4  D_elianeae_2_M                  20.46%    passed      5.99%
+   5  D_sanborni_2_M                  32.57%    passed     65.04%
+   6  D_nanus_1                       17.74%    passed     39.90%
+   7  D_rhodopeplus_1_M               32.99%    failed      2.29%
+   8  D_branneri_2_M                   9.27%    passed      7.21%
+   9  D_bipunctatus_1_M               17.14%    passed     19.23%
+  10  D_decipiens_I_M                 55.52%    passed      5.62%
+  11  D_minutus_I_M                   40.78%    failed      1.08%
+  12  D_triangulum_1_M                38.50%    passed     56.82%
+  13  D_elegans                       34.67%    passed     33.93%
+  14  D_labialis_1_M                  33.60%    passed     23.21%
+  15  D_riveroi_M                     48.39%    passed     20.61%
+  16  Xenohyla_truncata_1_M           31.33%    passed     48.39%
+  17  Sphaenorhynchus_pauloalvini_M   31.66%    failed      0.00%
+  18  Sphaenorhynchus_lacteus_M       22.33%    failed      0.92%
+  19  Scinax_perereca_M               23.83%    passed     48.33%
+  20  Scinax_berthae_M                46.97%    passed     36.67%
+  21  Pseudis_minutus_M               48.44%    passed     16.69%
+  22  Phyllodytes_luteolous_M         16.34%    passed     53.01%
+  23  D_tritaeniatus_hDNA             40.59%    failed      0.04%
+  24  D_rhea_hDNA                     40.42%    failed      0.03%
+  25  D_minusculus_3                  45.78%    passed     94.65%
+  26  D_minusculus_2                  29.58%    passed     16.63%
+  27  D_minusculus_1                  23.96%    passed      8.08%
+  28  D_cruzi                         16.22%    passed     14.73%
+  29  D_branneri_1                    25.03%    failed      1.34%
+  30  D_mathiassoni_1                 28.60%    passed     76.90%
+  31  D_mathiassoni_2                 15.93%    passed     53.08%
+  32  D_cachimbo_2                    29.49%    passed      8.24%
+  33  D_cachimbo_1                    23.48%    passed     23.85%
+  34  D_araguaya_II_2                 23.81%    passed     29.63%
+  35  D_jimi_1                        28.93%    passed      8.29%
+  36  D_araguaya_I_1                  21.50%    passed      9.82%
+  37  D_araguaya_I_2                  24.04%    failed      1.56%
+  38  D_jimi_2                        23.78%    failed      3.33%
+  39  D_cerradensis_1                 22.35%    passed     16.97%
+  40  D_cerradensis_2                 21.50%    passed     15.38%
+  41  D_rozenmani_1                   53.74%    passed     63.89%
+  42  D_rozenmani_2                   53.74%    passed     58.44%
+  43  D_studerae_1                    36.36%    passed     21.85%
+  44  D_anataliasiasi_1               31.66%    passed     63.22%
+  45  D_gaucheri_1                    41.82%    failed      2.70%
+  46  D_pseudomeridianus_1            23.83%    passed     23.96%
+  47  D_joannae                       15.97%    failed      0.52%
+  48  D_leali_1                       41.82%    passed     18.05%
+  49  D_parviceps_1                   23.55%    failed      2.15%
+  50  Xenohyla_eugenioi_1             53.80%    passed     20.10%
+  51  D_microcephalus_1               33.85%    passed     65.68%
+  52  D_werneri_1                     45.13%    passed     19.16%
+  53  D_shiwiarum_1                   64.43%    failed      4.25%
+  54  D_reicheli_1                    51.56%    passed     25.89%
+  55  D_coffea                        51.09%    failed      4.99%
+  56  D_walfordi                      53.06%    passed     39.68%
+  57  D_sartori_1                     45.19%    passed     22.43%
+  58  D_robertmertensi                52.35%    passed     45.44%
+  59  D_araguaya_II_1                 37.04%    passed     64.38%
+  60  D_anataliasiasi_2               46.13%    passed     23.19%
+  61  D_elianeae_1                    37.07%    passed     62.30%
+  62  D_elianae_3                     46.57%    passed     48.25%
+  63  D_sanborni_1                    37.72%    passed     64.24%
+  64  D_rubicundulus_1                45.09%    passed     39.23%
+  65  D_juliani_1                     45.15%    passed     50.97%
+  66  D_juliani_2                     45.15%    passed     49.38%
+  67  D_rubicundulus_2                18.84%    passed     90.37%
+  68  D_columbianus_1                 33.79%    failed      0.77%
+  69  Scarthyla_goinorum_1            52.94%    passed     25.85%
+  70  D_juliani_A_2                   91.97%    passed     75.09%
+  71  D_bilobatus_2                   91.98%    passed     62.67%
+  72  D_cf_tritaeniatus_4             92.09%    passed     68.38%
+  73  D_cf_tritaeniatus_3             92.12%    passed     67.94%
+  74  D_cf_tritaeniatus_2             91.97%    passed     76.03%
+  75  D_cf_tritaeniatus_1             92.68%    passed     77.68%
+  76  D_sanborni_5                    91.97%    passed     78.75%
+  77  D_sanborni_4                    91.97%    passed     73.12%
+  78  D_sanborni_3                    91.95%    passed     66.24%
+  79  D_rubicundulus_18               91.98%    passed     72.67%
+  80  D_rubicundulus_17               92.98%    passed     76.73%
+  81  D_rubicundulus_16               92.36%    passed     71.30%
+  82  D_rubicundulus_15               92.12%    passed     67.85%
+  83  D_rubicundulus_C4               92.65%    passed     65.45%
+  84  D_rubicundulus_13               92.86%    passed     65.55%
+  85  D_rubicundulus_12               91.98%    passed     75.70%
+  86  D_rubicundulus_11               91.98%    passed     39.52%
+  87  D_rubicundulus_10               91.97%    passed     35.82%
+  88  D_rubicundulus_9                92.12%    passed     64.40%
+  89  D_rubicundulus_8                92.10%    passed     54.99%
+  90  D_rubicundulus_7                91.97%    passed     40.21%
+  91  D_rubicundulus_6                91.98%    passed     32.87%
+  92  D_rubicundulus_5                92.09%    passed     25.28%
+  93  D_rubicundulus_4                92.63%    passed     36.80%
+  94  D_rubicundulus_3                91.98%    passed     74.09%
+  95  D_rozenmani_6                   91.97%    passed     65.51%
+  96  D_rozenmani_5                   91.97%    passed     66.49%
+  97  D_rozenmani_4                   91.97%    passed     66.49%
+  98  D_rozenmani_3                   91.97%    passed     65.51%
+  99  D_jimi_3                        92.65%    passed     58.00%
+ 100  D_elianae_8                     92.80%    passed     83.24%
+ 101  D_elianae_7                     92.81%    passed     78.29%
+ 102  D_elianae_6                     91.95%    passed     81.21%
+ 103  D_elianae_5                     91.95%    passed     72.08%
+ 104  D_elianae_4                     91.97%    passed     79.05%
+ 105  D_araguaya_II_3                 91.95%    passed     56.79%
+ 106  D_anataliasiasi_7               94.91%    passed     52.58%
+ 107  D_anataliasiasi_6               91.95%    passed     72.27%
+ 108  D_anataliasiasi_5               91.97%    passed     76.28%
+ 109  D_anataliasiasi_4               92.34%    passed     66.92%
+ 110  D_anataliasiasi_3               91.97%    passed     72.87%
+ 111  D_bilobatus_1                   92.90%    passed     78.88%
+ 112  D_juliani_A                     91.98%    passed     77.84%
+ 113  D_meridensis                    64.80%    failed      0.00%
+ 114  Itapotihyla_langsdorffi_1       55.55%    failed      0.27%
+ 115  Lysapus_laevis_C                63.60%    failed      1.10%
+WARNING: 56 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           56.95%  18 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Drub_MOL3.fas ... Fasta format detected
+Reading fasta file: done in 0.0188713 secs using 1404% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 34 sites contain only gaps or ambiguous characters.
+Alignment has 115 sequences with 6623 columns, 2734 distinct patterns
+1870 parsimony-informative, 542 singleton sites, 4211 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0133108 secs using 9859% CPU
+   1  D_marmoratus_1_M                27.25%    passed     70.71%
+   2  D_ruschii_1_M                   36.92%    passed      7.14%
+   3  D_jimi_M                        29.00%    passed      7.48%
+   4  D_elianeae_2_M                  20.46%    passed      5.99%
+   5  D_sanborni_2_M                  32.57%    passed     65.04%
+   6  D_nanus_1                       17.74%    passed     39.90%
+   7  D_rhodopeplus_1_M               32.99%    failed      2.29%
+   8  D_branneri_2_M                   9.27%    passed      7.21%
+   9  D_bipunctatus_1_M               17.14%    passed     19.23%
+  10  D_decipiens_I_M                 55.52%    passed      5.62%
+  11  D_minutus_I_M                   40.78%    failed      1.08%
+  12  D_triangulum_1_M                38.50%    passed     56.82%
+  13  D_elegans                       34.67%    passed     33.93%
+  14  D_labialis_1_M                  33.60%    passed     23.21%
+  15  D_riveroi_M                     48.39%    passed     20.61%
+  16  Xenohyla_truncata_1_M           31.33%    passed     48.39%
+  17  Sphaenorhynchus_pauloalvini_M   31.66%    failed      0.00%
+  18  Sphaenorhynchus_lacteus_M       22.33%    failed      0.92%
+  19  Scinax_perereca_M               23.83%    passed     48.33%
+  20  Scinax_berthae_M                46.97%    passed     36.67%
+  21  Pseudis_minutus_M               48.44%    passed     16.69%
+  22  Phyllodytes_luteolous_M         16.34%    passed     53.01%
+  23  D_tritaeniatus_hDNA             40.59%    failed      0.04%
+  24  D_rhea_hDNA                     40.42%    failed      0.03%
+  25  D_minusculus_3                  45.78%    passed     94.65%
+  26  D_minusculus_2                  29.58%    passed     16.63%
+  27  D_minusculus_1                  23.96%    passed      8.08%
+  28  D_cruzi                         16.22%    passed     14.73%
+  29  D_branneri_1                    25.03%    failed      1.34%
+  30  D_mathiassoni_1                 28.60%    passed     76.90%
+  31  D_mathiassoni_2                 15.93%    passed     53.08%
+  32  D_cachimbo_2                    29.49%    passed      8.24%
+  33  D_cachimbo_1                    23.48%    passed     23.85%
+  34  D_araguaya_II_2                 23.81%    passed     29.63%
+  35  D_jimi_1                        28.93%    passed      8.29%
+  36  D_araguaya_I_1                  21.50%    passed      9.82%
+  37  D_araguaya_I_2                  24.04%    failed      1.56%
+  38  D_jimi_2                        23.78%    failed      3.33%
+  39  D_cerradensis_1                 22.35%    passed     16.97%
+  40  D_cerradensis_2                 21.50%    passed     15.38%
+  41  D_rozenmani_1                   53.74%    passed     63.89%
+  42  D_rozenmani_2                   53.74%    passed     58.44%
+  43  D_studerae_1                    36.36%    passed     21.85%
+  44  D_anataliasiasi_1               31.66%    passed     63.22%
+  45  D_gaucheri_1                    41.82%    failed      2.70%
+  46  D_pseudomeridianus_1            23.83%    passed     23.96%
+  47  D_joannae                       15.97%    failed      0.52%
+  48  D_leali_1                       41.82%    passed     18.05%
+  49  D_parviceps_1                   23.55%    failed      2.15%
+  50  Xenohyla_eugenioi_1             53.80%    passed     20.10%
+  51  D_microcephalus_1               33.85%    passed     65.68%
+  52  D_werneri_1                     45.13%    passed     19.16%
+  53  D_shiwiarum_1                   64.43%    failed      4.25%
+  54  D_reicheli_1                    51.56%    passed     25.89%
+  55  D_coffea                        51.09%    failed      4.99%
+  56  D_walfordi                      53.06%    passed     39.68%
+  57  D_sartori_1                     45.19%    passed     22.43%
+  58  D_robertmertensi                52.35%    passed     45.44%
+  59  D_araguaya_II_1                 37.04%    passed     64.38%
+  60  D_anataliasiasi_2               46.13%    passed     23.19%
+  61  D_elianeae_1                    37.07%    passed     62.30%
+  62  D_elianae_3                     46.57%    passed     48.25%
+  63  D_sanborni_1                    37.72%    passed     64.24%
+  64  D_rubicundulus_1                45.09%    passed     39.23%
+  65  D_juliani_1                     45.15%    passed     50.97%
+  66  D_juliani_2                     45.15%    passed     49.38%
+  67  D_rubicundulus_2                18.84%    passed     90.37%
+  68  D_columbianus_1                 33.79%    failed      0.77%
+  69  Scarthyla_goinorum_1            52.94%    passed     25.85%
+  70  D_juliani_A_2                   91.97%    passed     75.09%
+  71  D_bilobatus_2                   91.98%    passed     62.67%
+  72  D_cf_tritaeniatus_4             92.09%    passed     68.38%
+  73  D_cf_tritaeniatus_3             92.12%    passed     67.94%
+  74  D_cf_tritaeniatus_2             91.97%    passed     76.03%
+  75  D_cf_tritaeniatus_1             92.68%    passed     77.68%
+  76  D_sanborni_5                    91.97%    passed     78.75%
+  77  D_sanborni_4                    91.97%    passed     73.12%
+  78  D_sanborni_3                    91.95%    passed     66.24%
+  79  D_rubicundulus_18               91.98%    passed     72.67%
+  80  D_rubicundulus_17               92.98%    passed     76.73%
+  81  D_rubicundulus_16               92.36%    passed     71.30%
+  82  D_rubicundulus_15               92.12%    passed     67.85%
+  83  D_rubicundulus_C4               92.65%    passed     65.45%
+  84  D_rubicundulus_13               92.86%    passed     65.55%
+  85  D_rubicundulus_12               91.98%    passed     75.70%
+  86  D_rubicundulus_11               91.98%    passed     39.52%
+  87  D_rubicundulus_10               91.97%    passed     35.82%
+  88  D_rubicundulus_9                92.12%    passed     64.40%
+  89  D_rubicundulus_8                92.10%    passed     54.99%
+  90  D_rubicundulus_7                91.97%    passed     40.21%
+  91  D_rubicundulus_6                91.98%    passed     32.87%
+  92  D_rubicundulus_5                92.09%    passed     25.28%
+  93  D_rubicundulus_4                92.63%    passed     36.80%
+  94  D_rubicundulus_3                91.98%    passed     74.09%
+  95  D_rozenmani_6                   91.97%    passed     65.51%
+  96  D_rozenmani_5                   91.97%    passed     66.49%
+  97  D_rozenmani_4                   91.97%    passed     66.49%
+  98  D_rozenmani_3                   91.97%    passed     65.51%
+  99  D_jimi_3                        92.65%    passed     58.00%
+ 100  D_elianae_8                     92.80%    passed     83.24%
+ 101  D_elianae_7                     92.81%    passed     78.29%
+ 102  D_elianae_6                     91.95%    passed     81.21%
+ 103  D_elianae_5                     91.95%    passed     72.08%
+ 104  D_elianae_4                     91.97%    passed     79.05%
+ 105  D_araguaya_II_3                 91.95%    passed     56.79%
+ 106  D_anataliasiasi_7               94.91%    passed     52.58%
+ 107  D_anataliasiasi_6               91.95%    passed     72.27%
+ 108  D_anataliasiasi_5               91.97%    passed     76.28%
+ 109  D_anataliasiasi_4               92.34%    passed     66.92%
+ 110  D_anataliasiasi_3               91.97%    passed     72.87%
+ 111  D_bilobatus_1                   92.90%    passed     78.88%
+ 112  D_juliani_A                     91.98%    passed     77.84%
+ 113  D_meridensis                    64.80%    failed      0.00%
+ 114  Itapotihyla_langsdorffi_1       55.55%    failed      0.27%
+ 115  Lysapus_laevis_C                63.60%    failed      1.10%
+WARNING: 56 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           56.95%  18 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Drub_MOL3.fas ... Fasta format detected
+Reading fasta file: done in 0.0149552 secs using 770.7% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 34 sites contain only gaps or ambiguous characters.
+Alignment has 115 sequences with 6623 columns, 2734 distinct patterns
+1870 parsimony-informative, 542 singleton sites, 4211 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00675111 secs using 8777% CPU
+   1  D_marmoratus_1_M                27.25%    passed     70.71%
+   2  D_ruschii_1_M                   36.92%    passed      7.14%
+   3  D_jimi_M                        29.00%    passed      7.48%
+   4  D_elianeae_2_M                  20.46%    passed      5.99%
+   5  D_sanborni_2_M                  32.57%    passed     65.04%
+   6  D_nanus_1                       17.74%    passed     39.90%
+   7  D_rhodopeplus_1_M               32.99%    failed      2.29%
+   8  D_branneri_2_M                   9.27%    passed      7.21%
+   9  D_bipunctatus_1_M               17.14%    passed     19.23%
+  10  D_decipiens_I_M                 55.52%    passed      5.62%
+  11  D_minutus_I_M                   40.78%    failed      1.08%
+  12  D_triangulum_1_M                38.50%    passed     56.82%
+  13  D_elegans                       34.67%    passed     33.93%
+  14  D_labialis_1_M                  33.60%    passed     23.21%
+  15  D_riveroi_M                     48.39%    passed     20.61%
+  16  Xenohyla_truncata_1_M           31.33%    passed     48.39%
+  17  Sphaenorhynchus_pauloalvini_M   31.66%    failed      0.00%
+  18  Sphaenorhynchus_lacteus_M       22.33%    failed      0.92%
+  19  Scinax_perereca_M               23.83%    passed     48.33%
+  20  Scinax_berthae_M                46.97%    passed     36.67%
+  21  Pseudis_minutus_M               48.44%    passed     16.69%
+  22  Phyllodytes_luteolous_M         16.34%    passed     53.01%
+  23  D_tritaeniatus_hDNA             40.59%    failed      0.04%
+  24  D_rhea_hDNA                     40.42%    failed      0.03%
+  25  D_minusculus_3                  45.78%    passed     94.65%
+  26  D_minusculus_2                  29.58%    passed     16.63%
+  27  D_minusculus_1                  23.96%    passed      8.08%
+  28  D_cruzi                         16.22%    passed     14.73%
+  29  D_branneri_1                    25.03%    failed      1.34%
+  30  D_mathiassoni_1                 28.60%    passed     76.90%
+  31  D_mathiassoni_2                 15.93%    passed     53.08%
+  32  D_cachimbo_2                    29.49%    passed      8.24%
+  33  D_cachimbo_1                    23.48%    passed     23.85%
+  34  D_araguaya_II_2                 23.81%    passed     29.63%
+  35  D_jimi_1                        28.93%    passed      8.29%
+  36  D_araguaya_I_1                  21.50%    passed      9.82%
+  37  D_araguaya_I_2                  24.04%    failed      1.56%
+  38  D_jimi_2                        23.78%    failed      3.33%
+  39  D_cerradensis_1                 22.35%    passed     16.97%
+  40  D_cerradensis_2                 21.50%    passed     15.38%
+  41  D_rozenmani_1                   53.74%    passed     63.89%
+  42  D_rozenmani_2                   53.74%    passed     58.44%
+  43  D_studerae_1                    36.36%    passed     21.85%
+  44  D_anataliasiasi_1               31.66%    passed     63.22%
+  45  D_gaucheri_1                    41.82%    failed      2.70%
+  46  D_pseudomeridianus_1            23.83%    passed     23.96%
+  47  D_joannae                       15.97%    failed      0.52%
+  48  D_leali_1                       41.82%    passed     18.05%
+  49  D_parviceps_1                   23.55%    failed      2.15%
+  50  Xenohyla_eugenioi_1             53.80%    passed     20.10%
+  51  D_microcephalus_1               33.85%    passed     65.68%
+  52  D_werneri_1                     45.13%    passed     19.16%
+  53  D_shiwiarum_1                   64.43%    failed      4.25%
+  54  D_reicheli_1                    51.56%    passed     25.89%
+  55  D_coffea                        51.09%    failed      4.99%
+  56  D_walfordi                      53.06%    passed     39.68%
+  57  D_sartori_1                     45.19%    passed     22.43%
+  58  D_robertmertensi                52.35%    passed     45.44%
+  59  D_araguaya_II_1                 37.04%    passed     64.38%
+  60  D_anataliasiasi_2               46.13%    passed     23.19%
+  61  D_elianeae_1                    37.07%    passed     62.30%
+  62  D_elianae_3                     46.57%    passed     48.25%
+  63  D_sanborni_1                    37.72%    passed     64.24%
+  64  D_rubicundulus_1                45.09%    passed     39.23%
+  65  D_juliani_1                     45.15%    passed     50.97%
+  66  D_juliani_2                     45.15%    passed     49.38%
+  67  D_rubicundulus_2                18.84%    passed     90.37%
+  68  D_columbianus_1                 33.79%    failed      0.77%
+  69  Scarthyla_goinorum_1            52.94%    passed     25.85%
+  70  D_juliani_A_2                   91.97%    passed     75.09%
+  71  D_bilobatus_2                   91.98%    passed     62.67%
+  72  D_cf_tritaeniatus_4             92.09%    passed     68.38%
+  73  D_cf_tritaeniatus_3             92.12%    passed     67.94%
+  74  D_cf_tritaeniatus_2             91.97%    passed     76.03%
+  75  D_cf_tritaeniatus_1             92.68%    passed     77.68%
+  76  D_sanborni_5                    91.97%    passed     78.75%
+  77  D_sanborni_4                    91.97%    passed     73.12%
+  78  D_sanborni_3                    91.95%    passed     66.24%
+  79  D_rubicundulus_18               91.98%    passed     72.67%
+  80  D_rubicundulus_17               92.98%    passed     76.73%
+  81  D_rubicundulus_16               92.36%    passed     71.30%
+  82  D_rubicundulus_15               92.12%    passed     67.85%
+  83  D_rubicundulus_C4               92.65%    passed     65.45%
+  84  D_rubicundulus_13               92.86%    passed     65.55%
+  85  D_rubicundulus_12               91.98%    passed     75.70%
+  86  D_rubicundulus_11               91.98%    passed     39.52%
+  87  D_rubicundulus_10               91.97%    passed     35.82%
+  88  D_rubicundulus_9                92.12%    passed     64.40%
+  89  D_rubicundulus_8                92.10%    passed     54.99%
+  90  D_rubicundulus_7                91.97%    passed     40.21%
+  91  D_rubicundulus_6                91.98%    passed     32.87%
+  92  D_rubicundulus_5                92.09%    passed     25.28%
+  93  D_rubicundulus_4                92.63%    passed     36.80%
+  94  D_rubicundulus_3                91.98%    passed     74.09%
+  95  D_rozenmani_6                   91.97%    passed     65.51%
+  96  D_rozenmani_5                   91.97%    passed     66.49%
+  97  D_rozenmani_4                   91.97%    passed     66.49%
+  98  D_rozenmani_3                   91.97%    passed     65.51%
+  99  D_jimi_3                        92.65%    passed     58.00%
+ 100  D_elianae_8                     92.80%    passed     83.24%
+ 101  D_elianae_7                     92.81%    passed     78.29%
+ 102  D_elianae_6                     91.95%    passed     81.21%
+ 103  D_elianae_5                     91.95%    passed     72.08%
+ 104  D_elianae_4                     91.97%    passed     79.05%
+ 105  D_araguaya_II_3                 91.95%    passed     56.79%
+ 106  D_anataliasiasi_7               94.91%    passed     52.58%
+ 107  D_anataliasiasi_6               91.95%    passed     72.27%
+ 108  D_anataliasiasi_5               91.97%    passed     76.28%
+ 109  D_anataliasiasi_4               92.34%    passed     66.92%
+ 110  D_anataliasiasi_3               91.97%    passed     72.87%
+ 111  D_bilobatus_1                   92.90%    passed     78.88%
+ 112  D_juliani_A                     91.98%    passed     77.84%
+ 113  D_meridensis                    64.80%    failed      0.00%
+ 114  Itapotihyla_langsdorffi_1       55.55%    failed      0.27%
+ 115  Lysapus_laevis_C                63.60%    failed      1.10%
+WARNING: 56 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           56.95%  18 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Drub_MOL3.fas ... Fasta format detected
+Reading fasta file: done in 0.0156178 secs using 5320% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 34 sites contain only gaps or ambiguous characters.
+Alignment has 115 sequences with 6623 columns, 2734 distinct patterns
+1870 parsimony-informative, 542 singleton sites, 4211 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0131131 secs using 9970% CPU
+   1  D_marmoratus_1_M                27.25%    passed     70.71%
+   2  D_ruschii_1_M                   36.92%    passed      7.14%
+   3  D_jimi_M                        29.00%    passed      7.48%
+   4  D_elianeae_2_M                  20.46%    passed      5.99%
+   5  D_sanborni_2_M                  32.57%    passed     65.04%
+   6  D_nanus_1                       17.74%    passed     39.90%
+   7  D_rhodopeplus_1_M               32.99%    failed      2.29%
+   8  D_branneri_2_M                   9.27%    passed      7.21%
+   9  D_bipunctatus_1_M               17.14%    passed     19.23%
+  10  D_decipiens_I_M                 55.52%    passed      5.62%
+  11  D_minutus_I_M                   40.78%    failed      1.08%
+  12  D_triangulum_1_M                38.50%    passed     56.82%
+  13  D_elegans                       34.67%    passed     33.93%
+  14  D_labialis_1_M                  33.60%    passed     23.21%
+  15  D_riveroi_M                     48.39%    passed     20.61%
+  16  Xenohyla_truncata_1_M           31.33%    passed     48.39%
+  17  Sphaenorhynchus_pauloalvini_M   31.66%    failed      0.00%
+  18  Sphaenorhynchus_lacteus_M       22.33%    failed      0.92%
+  19  Scinax_perereca_M               23.83%    passed     48.33%
+  20  Scinax_berthae_M                46.97%    passed     36.67%
+  21  Pseudis_minutus_M               48.44%    passed     16.69%
+  22  Phyllodytes_luteolous_M         16.34%    passed     53.01%
+  23  D_tritaeniatus_hDNA             40.59%    failed      0.04%
+  24  D_rhea_hDNA                     40.42%    failed      0.03%
+  25  D_minusculus_3                  45.78%    passed     94.65%
+  26  D_minusculus_2                  29.58%    passed     16.63%
+  27  D_minusculus_1                  23.96%    passed      8.08%
+  28  D_cruzi                         16.22%    passed     14.73%
+  29  D_branneri_1                    25.03%    failed      1.34%
+  30  D_mathiassoni_1                 28.60%    passed     76.90%
+  31  D_mathiassoni_2                 15.93%    passed     53.08%
+  32  D_cachimbo_2                    29.49%    passed      8.24%
+  33  D_cachimbo_1                    23.48%    passed     23.85%
+  34  D_araguaya_II_2                 23.81%    passed     29.63%
+  35  D_jimi_1                        28.93%    passed      8.29%
+  36  D_araguaya_I_1                  21.50%    passed      9.82%
+  37  D_araguaya_I_2                  24.04%    failed      1.56%
+  38  D_jimi_2                        23.78%    failed      3.33%
+  39  D_cerradensis_1                 22.35%    passed     16.97%
+  40  D_cerradensis_2                 21.50%    passed     15.38%
+  41  D_rozenmani_1                   53.74%    passed     63.89%
+  42  D_rozenmani_2                   53.74%    passed     58.44%
+  43  D_studerae_1                    36.36%    passed     21.85%
+  44  D_anataliasiasi_1               31.66%    passed     63.22%
+  45  D_gaucheri_1                    41.82%    failed      2.70%
+  46  D_pseudomeridianus_1            23.83%    passed     23.96%
+  47  D_joannae                       15.97%    failed      0.52%
+  48  D_leali_1                       41.82%    passed     18.05%
+  49  D_parviceps_1                   23.55%    failed      2.15%
+  50  Xenohyla_eugenioi_1             53.80%    passed     20.10%
+  51  D_microcephalus_1               33.85%    passed     65.68%
+  52  D_werneri_1                     45.13%    passed     19.16%
+  53  D_shiwiarum_1                   64.43%    failed      4.25%
+  54  D_reicheli_1                    51.56%    passed     25.89%
+  55  D_coffea                        51.09%    failed      4.99%
+  56  D_walfordi                      53.06%    passed     39.68%
+  57  D_sartori_1                     45.19%    passed     22.43%
+  58  D_robertmertensi                52.35%    passed     45.44%
+  59  D_araguaya_II_1                 37.04%    passed     64.38%
+  60  D_anataliasiasi_2               46.13%    passed     23.19%
+  61  D_elianeae_1                    37.07%    passed     62.30%
+  62  D_elianae_3                     46.57%    passed     48.25%
+  63  D_sanborni_1                    37.72%    passed     64.24%
+  64  D_rubicundulus_1                45.09%    passed     39.23%
+  65  D_juliani_1                     45.15%    passed     50.97%
+  66  D_juliani_2                     45.15%    passed     49.38%
+  67  D_rubicundulus_2                18.84%    passed     90.37%
+  68  D_columbianus_1                 33.79%    failed      0.77%
+  69  Scarthyla_goinorum_1            52.94%    passed     25.85%
+  70  D_juliani_A_2                   91.97%    passed     75.09%
+  71  D_bilobatus_2                   91.98%    passed     62.67%
+  72  D_cf_tritaeniatus_4             92.09%    passed     68.38%
+  73  D_cf_tritaeniatus_3             92.12%    passed     67.94%
+  74  D_cf_tritaeniatus_2             91.97%    passed     76.03%
+  75  D_cf_tritaeniatus_1             92.68%    passed     77.68%
+  76  D_sanborni_5                    91.97%    passed     78.75%
+  77  D_sanborni_4                    91.97%    passed     73.12%
+  78  D_sanborni_3                    91.95%    passed     66.24%
+  79  D_rubicundulus_18               91.98%    passed     72.67%
+  80  D_rubicundulus_17               92.98%    passed     76.73%
+  81  D_rubicundulus_16               92.36%    passed     71.30%
+  82  D_rubicundulus_15               92.12%    passed     67.85%
+  83  D_rubicundulus_C4               92.65%    passed     65.45%
+  84  D_rubicundulus_13               92.86%    passed     65.55%
+  85  D_rubicundulus_12               91.98%    passed     75.70%
+  86  D_rubicundulus_11               91.98%    passed     39.52%
+  87  D_rubicundulus_10               91.97%    passed     35.82%
+  88  D_rubicundulus_9                92.12%    passed     64.40%
+  89  D_rubicundulus_8                92.10%    passed     54.99%
+  90  D_rubicundulus_7                91.97%    passed     40.21%
+  91  D_rubicundulus_6                91.98%    passed     32.87%
+  92  D_rubicundulus_5                92.09%    passed     25.28%
+  93  D_rubicundulus_4                92.63%    passed     36.80%
+  94  D_rubicundulus_3                91.98%    passed     74.09%
+  95  D_rozenmani_6                   91.97%    passed     65.51%
+  96  D_rozenmani_5                   91.97%    passed     66.49%
+  97  D_rozenmani_4                   91.97%    passed     66.49%
+  98  D_rozenmani_3                   91.97%    passed     65.51%
+  99  D_jimi_3                        92.65%    passed     58.00%
+ 100  D_elianae_8                     92.80%    passed     83.24%
+ 101  D_elianae_7                     92.81%    passed     78.29%
+ 102  D_elianae_6                     91.95%    passed     81.21%
+ 103  D_elianae_5                     91.95%    passed     72.08%
+ 104  D_elianae_4                     91.97%    passed     79.05%
+ 105  D_araguaya_II_3                 91.95%    passed     56.79%
+ 106  D_anataliasiasi_7               94.91%    passed     52.58%
+ 107  D_anataliasiasi_6               91.95%    passed     72.27%
+ 108  D_anataliasiasi_5               91.97%    passed     76.28%
+ 109  D_anataliasiasi_4               92.34%    passed     66.92%
+ 110  D_anataliasiasi_3               91.97%    passed     72.87%
+ 111  D_bilobatus_1                   92.90%    passed     78.88%
+ 112  D_juliani_A                     91.98%    passed     77.84%
+ 113  D_meridensis                    64.80%    failed      0.00%
+ 114  Itapotihyla_langsdorffi_1       55.55%    failed      0.27%
+ 115  Lysapus_laevis_C                63.60%    failed      1.10%
+WARNING: 56 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           56.95%  18 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Drub_MOL3.fas ... Fasta format detected
+Reading fasta file: done in 0.0156108 secs using 5911% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 34 sites contain only gaps or ambiguous characters.
+Alignment has 115 sequences with 6623 columns, 2734 distinct patterns
+1870 parsimony-informative, 542 singleton sites, 4211 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00729735 secs using 8342% CPU
+   1  D_marmoratus_1_M                27.25%    passed     70.71%
+   2  D_ruschii_1_M                   36.92%    passed      7.14%
+   3  D_jimi_M                        29.00%    passed      7.48%
+   4  D_elianeae_2_M                  20.46%    passed      5.99%
+   5  D_sanborni_2_M                  32.57%    passed     65.04%
+   6  D_nanus_1                       17.74%    passed     39.90%
+   7  D_rhodopeplus_1_M               32.99%    failed      2.29%
+   8  D_branneri_2_M                   9.27%    passed      7.21%
+   9  D_bipunctatus_1_M               17.14%    passed     19.23%
+  10  D_decipiens_I_M                 55.52%    passed      5.62%
+  11  D_minutus_I_M                   40.78%    failed      1.08%
+  12  D_triangulum_1_M                38.50%    passed     56.82%
+  13  D_elegans                       34.67%    passed     33.93%
+  14  D_labialis_1_M                  33.60%    passed     23.21%
+  15  D_riveroi_M                     48.39%    passed     20.61%
+  16  Xenohyla_truncata_1_M           31.33%    passed     48.39%
+  17  Sphaenorhynchus_pauloalvini_M   31.66%    failed      0.00%
+  18  Sphaenorhynchus_lacteus_M       22.33%    failed      0.92%
+  19  Scinax_perereca_M               23.83%    passed     48.33%
+  20  Scinax_berthae_M                46.97%    passed     36.67%
+  21  Pseudis_minutus_M               48.44%    passed     16.69%
+  22  Phyllodytes_luteolous_M         16.34%    passed     53.01%
+  23  D_tritaeniatus_hDNA             40.59%    failed      0.04%
+  24  D_rhea_hDNA                     40.42%    failed      0.03%
+  25  D_minusculus_3                  45.78%    passed     94.65%
+  26  D_minusculus_2                  29.58%    passed     16.63%
+  27  D_minusculus_1                  23.96%    passed      8.08%
+  28  D_cruzi                         16.22%    passed     14.73%
+  29  D_branneri_1                    25.03%    failed      1.34%
+  30  D_mathiassoni_1                 28.60%    passed     76.90%
+  31  D_mathiassoni_2                 15.93%    passed     53.08%
+  32  D_cachimbo_2                    29.49%    passed      8.24%
+  33  D_cachimbo_1                    23.48%    passed     23.85%
+  34  D_araguaya_II_2                 23.81%    passed     29.63%
+  35  D_jimi_1                        28.93%    passed      8.29%
+  36  D_araguaya_I_1                  21.50%    passed      9.82%
+  37  D_araguaya_I_2                  24.04%    failed      1.56%
+  38  D_jimi_2                        23.78%    failed      3.33%
+  39  D_cerradensis_1                 22.35%    passed     16.97%
+  40  D_cerradensis_2                 21.50%    passed     15.38%
+  41  D_rozenmani_1                   53.74%    passed     63.89%
+  42  D_rozenmani_2                   53.74%    passed     58.44%
+  43  D_studerae_1                    36.36%    passed     21.85%
+  44  D_anataliasiasi_1               31.66%    passed     63.22%
+  45  D_gaucheri_1                    41.82%    failed      2.70%
+  46  D_pseudomeridianus_1            23.83%    passed     23.96%
+  47  D_joannae                       15.97%    failed      0.52%
+  48  D_leali_1                       41.82%    passed     18.05%
+  49  D_parviceps_1                   23.55%    failed      2.15%
+  50  Xenohyla_eugenioi_1             53.80%    passed     20.10%
+  51  D_microcephalus_1               33.85%    passed     65.68%
+  52  D_werneri_1                     45.13%    passed     19.16%
+  53  D_shiwiarum_1                   64.43%    failed      4.25%
+  54  D_reicheli_1                    51.56%    passed     25.89%
+  55  D_coffea                        51.09%    failed      4.99%
+  56  D_walfordi                      53.06%    passed     39.68%
+  57  D_sartori_1                     45.19%    passed     22.43%
+  58  D_robertmertensi                52.35%    passed     45.44%
+  59  D_araguaya_II_1                 37.04%    passed     64.38%
+  60  D_anataliasiasi_2               46.13%    passed     23.19%
+  61  D_elianeae_1                    37.07%    passed     62.30%
+  62  D_elianae_3                     46.57%    passed     48.25%
+  63  D_sanborni_1                    37.72%    passed     64.24%
+  64  D_rubicundulus_1                45.09%    passed     39.23%
+  65  D_juliani_1                     45.15%    passed     50.97%
+  66  D_juliani_2                     45.15%    passed     49.38%
+  67  D_rubicundulus_2                18.84%    passed     90.37%
+  68  D_columbianus_1                 33.79%    failed      0.77%
+  69  Scarthyla_goinorum_1            52.94%    passed     25.85%
+  70  D_juliani_A_2                   91.97%    passed     75.09%
+  71  D_bilobatus_2                   91.98%    passed     62.67%
+  72  D_cf_tritaeniatus_4             92.09%    passed     68.38%
+  73  D_cf_tritaeniatus_3             92.12%    passed     67.94%
+  74  D_cf_tritaeniatus_2             91.97%    passed     76.03%
+  75  D_cf_tritaeniatus_1             92.68%    passed     77.68%
+  76  D_sanborni_5                    91.97%    passed     78.75%
+  77  D_sanborni_4                    91.97%    passed     73.12%
+  78  D_sanborni_3                    91.95%    passed     66.24%
+  79  D_rubicundulus_18               91.98%    passed     72.67%
+  80  D_rubicundulus_17               92.98%    passed     76.73%
+  81  D_rubicundulus_16               92.36%    passed     71.30%
+  82  D_rubicundulus_15               92.12%    passed     67.85%
+  83  D_rubicundulus_C4               92.65%    passed     65.45%
+  84  D_rubicundulus_13               92.86%    passed     65.55%
+  85  D_rubicundulus_12               91.98%    passed     75.70%
+  86  D_rubicundulus_11               91.98%    passed     39.52%
+  87  D_rubicundulus_10               91.97%    passed     35.82%
+  88  D_rubicundulus_9                92.12%    passed     64.40%
+  89  D_rubicundulus_8                92.10%    passed     54.99%
+  90  D_rubicundulus_7                91.97%    passed     40.21%
+  91  D_rubicundulus_6                91.98%    passed     32.87%
+  92  D_rubicundulus_5                92.09%    passed     25.28%
+  93  D_rubicundulus_4                92.63%    passed     36.80%
+  94  D_rubicundulus_3                91.98%    passed     74.09%
+  95  D_rozenmani_6                   91.97%    passed     65.51%
+  96  D_rozenmani_5                   91.97%    passed     66.49%
+  97  D_rozenmani_4                   91.97%    passed     66.49%
+  98  D_rozenmani_3                   91.97%    passed     65.51%
+  99  D_jimi_3                        92.65%    passed     58.00%
+ 100  D_elianae_8                     92.80%    passed     83.24%
+ 101  D_elianae_7                     92.81%    passed     78.29%
+ 102  D_elianae_6                     91.95%    passed     81.21%
+ 103  D_elianae_5                     91.95%    passed     72.08%
+ 104  D_elianae_4                     91.97%    passed     79.05%
+ 105  D_araguaya_II_3                 91.95%    passed     56.79%
+ 106  D_anataliasiasi_7               94.91%    passed     52.58%
+ 107  D_anataliasiasi_6               91.95%    passed     72.27%
+ 108  D_anataliasiasi_5               91.97%    passed     76.28%
+ 109  D_anataliasiasi_4               92.34%    passed     66.92%
+ 110  D_anataliasiasi_3               91.97%    passed     72.87%
+ 111  D_bilobatus_1                   92.90%    passed     78.88%
+ 112  D_juliani_A                     91.98%    passed     77.84%
+ 113  D_meridensis                    64.80%    failed      0.00%
+ 114  Itapotihyla_langsdorffi_1       55.55%    failed      0.27%
+ 115  Lysapus_laevis_C                63.60%    failed      1.10%
+WARNING: 56 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           56.95%  18 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Drub_MOL3.fas ... Fasta format detected
+Reading fasta file: done in 0.0183354 secs using 4741% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 34 sites contain only gaps or ambiguous characters.
+Alignment has 115 sequences with 6623 columns, 2734 distinct patterns
+1870 parsimony-informative, 542 singleton sites, 4211 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0130295 secs using 1.013e+04% CPU
+   1  D_marmoratus_1_M                27.25%    passed     70.71%
+   2  D_ruschii_1_M                   36.92%    passed      7.14%
+   3  D_jimi_M                        29.00%    passed      7.48%
+   4  D_elianeae_2_M                  20.46%    passed      5.99%
+   5  D_sanborni_2_M                  32.57%    passed     65.04%
+   6  D_nanus_1                       17.74%    passed     39.90%
+   7  D_rhodopeplus_1_M               32.99%    failed      2.29%
+   8  D_branneri_2_M                   9.27%    passed      7.21%
+   9  D_bipunctatus_1_M               17.14%    passed     19.23%
+  10  D_decipiens_I_M                 55.52%    passed      5.62%
+  11  D_minutus_I_M                   40.78%    failed      1.08%
+  12  D_triangulum_1_M                38.50%    passed     56.82%
+  13  D_elegans                       34.67%    passed     33.93%
+  14  D_labialis_1_M                  33.60%    passed     23.21%
+  15  D_riveroi_M                     48.39%    passed     20.61%
+  16  Xenohyla_truncata_1_M           31.33%    passed     48.39%
+  17  Sphaenorhynchus_pauloalvini_M   31.66%    failed      0.00%
+  18  Sphaenorhynchus_lacteus_M       22.33%    failed      0.92%
+  19  Scinax_perereca_M               23.83%    passed     48.33%
+  20  Scinax_berthae_M                46.97%    passed     36.67%
+  21  Pseudis_minutus_M               48.44%    passed     16.69%
+  22  Phyllodytes_luteolous_M         16.34%    passed     53.01%
+  23  D_tritaeniatus_hDNA             40.59%    failed      0.04%
+  24  D_rhea_hDNA                     40.42%    failed      0.03%
+  25  D_minusculus_3                  45.78%    passed     94.65%
+  26  D_minusculus_2                  29.58%    passed     16.63%
+  27  D_minusculus_1                  23.96%    passed      8.08%
+  28  D_cruzi                         16.22%    passed     14.73%
+  29  D_branneri_1                    25.03%    failed      1.34%
+  30  D_mathiassoni_1                 28.60%    passed     76.90%
+  31  D_mathiassoni_2                 15.93%    passed     53.08%
+  32  D_cachimbo_2                    29.49%    passed      8.24%
+  33  D_cachimbo_1                    23.48%    passed     23.85%
+  34  D_araguaya_II_2                 23.81%    passed     29.63%
+  35  D_jimi_1                        28.93%    passed      8.29%
+  36  D_araguaya_I_1                  21.50%    passed      9.82%
+  37  D_araguaya_I_2                  24.04%    failed      1.56%
+  38  D_jimi_2                        23.78%    failed      3.33%
+  39  D_cerradensis_1                 22.35%    passed     16.97%
+  40  D_cerradensis_2                 21.50%    passed     15.38%
+  41  D_rozenmani_1                   53.74%    passed     63.89%
+  42  D_rozenmani_2                   53.74%    passed     58.44%
+  43  D_studerae_1                    36.36%    passed     21.85%
+  44  D_anataliasiasi_1               31.66%    passed     63.22%
+  45  D_gaucheri_1                    41.82%    failed      2.70%
+  46  D_pseudomeridianus_1            23.83%    passed     23.96%
+  47  D_joannae                       15.97%    failed      0.52%
+  48  D_leali_1                       41.82%    passed     18.05%
+  49  D_parviceps_1                   23.55%    failed      2.15%
+  50  Xenohyla_eugenioi_1             53.80%    passed     20.10%
+  51  D_microcephalus_1               33.85%    passed     65.68%
+  52  D_werneri_1                     45.13%    passed     19.16%
+  53  D_shiwiarum_1                   64.43%    failed      4.25%
+  54  D_reicheli_1                    51.56%    passed     25.89%
+  55  D_coffea                        51.09%    failed      4.99%
+  56  D_walfordi                      53.06%    passed     39.68%
+  57  D_sartori_1                     45.19%    passed     22.43%
+  58  D_robertmertensi                52.35%    passed     45.44%
+  59  D_araguaya_II_1                 37.04%    passed     64.38%
+  60  D_anataliasiasi_2               46.13%    passed     23.19%
+  61  D_elianeae_1                    37.07%    passed     62.30%
+  62  D_elianae_3                     46.57%    passed     48.25%
+  63  D_sanborni_1                    37.72%    passed     64.24%
+  64  D_rubicundulus_1                45.09%    passed     39.23%
+  65  D_juliani_1                     45.15%    passed     50.97%
+  66  D_juliani_2                     45.15%    passed     49.38%
+  67  D_rubicundulus_2                18.84%    passed     90.37%
+  68  D_columbianus_1                 33.79%    failed      0.77%
+  69  Scarthyla_goinorum_1            52.94%    passed     25.85%
+  70  D_juliani_A_2                   91.97%    passed     75.09%
+  71  D_bilobatus_2                   91.98%    passed     62.67%
+  72  D_cf_tritaeniatus_4             92.09%    passed     68.38%
+  73  D_cf_tritaeniatus_3             92.12%    passed     67.94%
+  74  D_cf_tritaeniatus_2             91.97%    passed     76.03%
+  75  D_cf_tritaeniatus_1             92.68%    passed     77.68%
+  76  D_sanborni_5                    91.97%    passed     78.75%
+  77  D_sanborni_4                    91.97%    passed     73.12%
+  78  D_sanborni_3                    91.95%    passed     66.24%
+  79  D_rubicundulus_18               91.98%    passed     72.67%
+  80  D_rubicundulus_17               92.98%    passed     76.73%
+  81  D_rubicundulus_16               92.36%    passed     71.30%
+  82  D_rubicundulus_15               92.12%    passed     67.85%
+  83  D_rubicundulus_C4               92.65%    passed     65.45%
+  84  D_rubicundulus_13               92.86%    passed     65.55%
+  85  D_rubicundulus_12               91.98%    passed     75.70%
+  86  D_rubicundulus_11               91.98%    passed     39.52%
+  87  D_rubicundulus_10               91.97%    passed     35.82%
+  88  D_rubicundulus_9                92.12%    passed     64.40%
+  89  D_rubicundulus_8                92.10%    passed     54.99%
+  90  D_rubicundulus_7                91.97%    passed     40.21%
+  91  D_rubicundulus_6                91.98%    passed     32.87%
+  92  D_rubicundulus_5                92.09%    passed     25.28%
+  93  D_rubicundulus_4                92.63%    passed     36.80%
+  94  D_rubicundulus_3                91.98%    passed     74.09%
+  95  D_rozenmani_6                   91.97%    passed     65.51%
+  96  D_rozenmani_5                   91.97%    passed     66.49%
+  97  D_rozenmani_4                   91.97%    passed     66.49%
+  98  D_rozenmani_3                   91.97%    passed     65.51%
+  99  D_jimi_3                        92.65%    passed     58.00%
+ 100  D_elianae_8                     92.80%    passed     83.24%
+ 101  D_elianae_7                     92.81%    passed     78.29%
+ 102  D_elianae_6                     91.95%    passed     81.21%
+ 103  D_elianae_5                     91.95%    passed     72.08%
+ 104  D_elianae_4                     91.97%    passed     79.05%
+ 105  D_araguaya_II_3                 91.95%    passed     56.79%
+ 106  D_anataliasiasi_7               94.91%    passed     52.58%
+ 107  D_anataliasiasi_6               91.95%    passed     72.27%
+ 108  D_anataliasiasi_5               91.97%    passed     76.28%
+ 109  D_anataliasiasi_4               92.34%    passed     66.92%
+ 110  D_anataliasiasi_3               91.97%    passed     72.87%
+ 111  D_bilobatus_1                   92.90%    passed     78.88%
+ 112  D_juliani_A                     91.98%    passed     77.84%
+ 113  D_meridensis                    64.80%    failed      0.00%
+ 114  Itapotihyla_langsdorffi_1       55.55%    failed      0.27%
+ 115  Lysapus_laevis_C                63.60%    failed      1.10%
+WARNING: 56 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           56.95%  18 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Drub_MOL3.fas ... Fasta format detected
+Reading fasta file: done in 0.0181631 secs using 5448% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 34 sites contain only gaps or ambiguous characters.
+Alignment has 115 sequences with 6623 columns, 2734 distinct patterns
+1870 parsimony-informative, 542 singleton sites, 4211 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0120877 secs using 1.053e+04% CPU
+   1  D_marmoratus_1_M                27.25%    passed     70.71%
+   2  D_ruschii_1_M                   36.92%    passed      7.14%
+   3  D_jimi_M                        29.00%    passed      7.48%
+   4  D_elianeae_2_M                  20.46%    passed      5.99%
+   5  D_sanborni_2_M                  32.57%    passed     65.04%
+   6  D_nanus_1                       17.74%    passed     39.90%
+   7  D_rhodopeplus_1_M               32.99%    failed      2.29%
+   8  D_branneri_2_M                   9.27%    passed      7.21%
+   9  D_bipunctatus_1_M               17.14%    passed     19.23%
+  10  D_decipiens_I_M                 55.52%    passed      5.62%
+  11  D_minutus_I_M                   40.78%    failed      1.08%
+  12  D_triangulum_1_M                38.50%    passed     56.82%
+  13  D_elegans                       34.67%    passed     33.93%
+  14  D_labialis_1_M                  33.60%    passed     23.21%
+  15  D_riveroi_M                     48.39%    passed     20.61%
+  16  Xenohyla_truncata_1_M           31.33%    passed     48.39%
+  17  Sphaenorhynchus_pauloalvini_M   31.66%    failed      0.00%
+  18  Sphaenorhynchus_lacteus_M       22.33%    failed      0.92%
+  19  Scinax_perereca_M               23.83%    passed     48.33%
+  20  Scinax_berthae_M                46.97%    passed     36.67%
+  21  Pseudis_minutus_M               48.44%    passed     16.69%
+  22  Phyllodytes_luteolous_M         16.34%    passed     53.01%
+  23  D_tritaeniatus_hDNA             40.59%    failed      0.04%
+  24  D_rhea_hDNA                     40.42%    failed      0.03%
+  25  D_minusculus_3                  45.78%    passed     94.65%
+  26  D_minusculus_2                  29.58%    passed     16.63%
+  27  D_minusculus_1                  23.96%    passed      8.08%
+  28  D_cruzi                         16.22%    passed     14.73%
+  29  D_branneri_1                    25.03%    failed      1.34%
+  30  D_mathiassoni_1                 28.60%    passed     76.90%
+  31  D_mathiassoni_2                 15.93%    passed     53.08%
+  32  D_cachimbo_2                    29.49%    passed      8.24%
+  33  D_cachimbo_1                    23.48%    passed     23.85%
+  34  D_araguaya_II_2                 23.81%    passed     29.63%
+  35  D_jimi_1                        28.93%    passed      8.29%
+  36  D_araguaya_I_1                  21.50%    passed      9.82%
+  37  D_araguaya_I_2                  24.04%    failed      1.56%
+  38  D_jimi_2                        23.78%    failed      3.33%
+  39  D_cerradensis_1                 22.35%    passed     16.97%
+  40  D_cerradensis_2                 21.50%    passed     15.38%
+  41  D_rozenmani_1                   53.74%    passed     63.89%
+  42  D_rozenmani_2                   53.74%    passed     58.44%
+  43  D_studerae_1                    36.36%    passed     21.85%
+  44  D_anataliasiasi_1               31.66%    passed     63.22%
+  45  D_gaucheri_1                    41.82%    failed      2.70%
+  46  D_pseudomeridianus_1            23.83%    passed     23.96%
+  47  D_joannae                       15.97%    failed      0.52%
+  48  D_leali_1                       41.82%    passed     18.05%
+  49  D_parviceps_1                   23.55%    failed      2.15%
+  50  Xenohyla_eugenioi_1             53.80%    passed     20.10%
+  51  D_microcephalus_1               33.85%    passed     65.68%
+  52  D_werneri_1                     45.13%    passed     19.16%
+  53  D_shiwiarum_1                   64.43%    failed      4.25%
+  54  D_reicheli_1                    51.56%    passed     25.89%
+  55  D_coffea                        51.09%    failed      4.99%
+  56  D_walfordi                      53.06%    passed     39.68%
+  57  D_sartori_1                     45.19%    passed     22.43%
+  58  D_robertmertensi                52.35%    passed     45.44%
+  59  D_araguaya_II_1                 37.04%    passed     64.38%
+  60  D_anataliasiasi_2               46.13%    passed     23.19%
+  61  D_elianeae_1                    37.07%    passed     62.30%
+  62  D_elianae_3                     46.57%    passed     48.25%
+  63  D_sanborni_1                    37.72%    passed     64.24%
+  64  D_rubicundulus_1                45.09%    passed     39.23%
+  65  D_juliani_1                     45.15%    passed     50.97%
+  66  D_juliani_2                     45.15%    passed     49.38%
+  67  D_rubicundulus_2                18.84%    passed     90.37%
+  68  D_columbianus_1                 33.79%    failed      0.77%
+  69  Scarthyla_goinorum_1            52.94%    passed     25.85%
+  70  D_juliani_A_2                   91.97%    passed     75.09%
+  71  D_bilobatus_2                   91.98%    passed     62.67%
+  72  D_cf_tritaeniatus_4             92.09%    passed     68.38%
+  73  D_cf_tritaeniatus_3             92.12%    passed     67.94%
+  74  D_cf_tritaeniatus_2             91.97%    passed     76.03%
+  75  D_cf_tritaeniatus_1             92.68%    passed     77.68%
+  76  D_sanborni_5                    91.97%    passed     78.75%
+  77  D_sanborni_4                    91.97%    passed     73.12%
+  78  D_sanborni_3                    91.95%    passed     66.24%
+  79  D_rubicundulus_18               91.98%    passed     72.67%
+  80  D_rubicundulus_17               92.98%    passed     76.73%
+  81  D_rubicundulus_16               92.36%    passed     71.30%
+  82  D_rubicundulus_15               92.12%    passed     67.85%
+  83  D_rubicundulus_C4               92.65%    passed     65.45%
+  84  D_rubicundulus_13               92.86%    passed     65.55%
+  85  D_rubicundulus_12               91.98%    passed     75.70%
+  86  D_rubicundulus_11               91.98%    passed     39.52%
+  87  D_rubicundulus_10               91.97%    passed     35.82%
+  88  D_rubicundulus_9                92.12%    passed     64.40%
+  89  D_rubicundulus_8                92.10%    passed     54.99%
+  90  D_rubicundulus_7                91.97%    passed     40.21%
+  91  D_rubicundulus_6                91.98%    passed     32.87%
+  92  D_rubicundulus_5                92.09%    passed     25.28%
+  93  D_rubicundulus_4                92.63%    passed     36.80%
+  94  D_rubicundulus_3                91.98%    passed     74.09%
+  95  D_rozenmani_6                   91.97%    passed     65.51%
+  96  D_rozenmani_5                   91.97%    passed     66.49%
+  97  D_rozenmani_4                   91.97%    passed     66.49%
+  98  D_rozenmani_3                   91.97%    passed     65.51%
+  99  D_jimi_3                        92.65%    passed     58.00%
+ 100  D_elianae_8                     92.80%    passed     83.24%
+ 101  D_elianae_7                     92.81%    passed     78.29%
+ 102  D_elianae_6                     91.95%    passed     81.21%
+ 103  D_elianae_5                     91.95%    passed     72.08%
+ 104  D_elianae_4                     91.97%    passed     79.05%
+ 105  D_araguaya_II_3                 91.95%    passed     56.79%
+ 106  D_anataliasiasi_7               94.91%    passed     52.58%
+ 107  D_anataliasiasi_6               91.95%    passed     72.27%
+ 108  D_anataliasiasi_5               91.97%    passed     76.28%
+ 109  D_anataliasiasi_4               92.34%    passed     66.92%
+ 110  D_anataliasiasi_3               91.97%    passed     72.87%
+ 111  D_bilobatus_1                   92.90%    passed     78.88%
+ 112  D_juliani_A                     91.98%    passed     77.84%
+ 113  D_meridensis                    64.80%    failed      0.00%
+ 114  Itapotihyla_langsdorffi_1       55.55%    failed      0.27%
+ 115  Lysapus_laevis_C                63.60%    failed      1.10%
+WARNING: 56 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           56.95%  18 sequences failed composition chi2 test (p-value<5%; df=3)
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	MORPH	22	1	1	0	MK+ASC	partFen2st
+2	MORPH	22	1	1	0	ORDERED+ASC	partFenOrd3st
+3	MORPH	22	2	2	0	ORDERED+ASC	partFenOrd4st
+4	MORPH	22	2	2	0	MK+ASC	partFenNoOrd3st
+5	MORPH	22	1	1	0	MK+ASC	partFenNoOrd4st
+6	MORPH	20	1	1	0	ORDERED+ASC	partFenOrd5st
+7	DNA	42	653	239	388	TPM2u+F+I+G4	COI
+8	DNA	67	909	329	528	TIM2+F+I+I+R4	CYTB
+9	DNA	115	2938	1008	1699	GTR+F+I+I+R4	H1
+10	DNA	25	446	68	322	TN+F+I+I+R2	POMC
+11	DNA	40	430	57	322	K2P+I+I+R2	RAG1
+12	DNA	40	314	35	256	TPM3+I+I+R2	RHOD
+13	DNA	42	402	24	343	K2P+R2	SIA
+14	DNA	31	539	113	356	TNe+I+G4	TYR
+Degree of missing data: 0.344
+Info: multi-threading strategy over partitions
+
+NOTE: D_rozenmani_3 is identical to D_rozenmani_6 but kept for subsequent analysis
+NOTE: State(s) 2, 3, 4 not present in partition partFen2st and thus removed from Markov process to prevent numerical problems
+NOTE: State(s) 3, 4 not present in partition partFenOrd3st and thus removed from Markov process to prevent numerical problems
+WARNING: States(s) 4 rarely appear in partition partFenOrd4st and may cause numerical problems
+WARNING: States(s) 3, 4 rarely appear in partition partFenNoOrd3st and may cause numerical problems
+NOTE: State(s) 3, 4 not present in partition partFenNoOrd4st and thus removed from Markov process to prevent numerical problems
+NOTE: 7 states (see above) are not present and thus removed from Markov process to prevent numerical problems
+Creating fast initial parsimony tree by random order stepwise addition...
+513.652 seconds, parsimony score: 12188 (based on 2425 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 170627)...
+
+NOTE: 39 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 128 CPU cores
+Increase to 10 rounds for branch lengths
+260 trees examined
+Threads: 1 / Time: 128.313 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -87379
+Threads: 2 / Time: 95.102 sec / Speedup: 1.349 / Efficiency: 67% / LogL: -87379
+Threads: 3 / Time: 96.958 sec / Speedup: 1.323 / Efficiency: 44% / LogL: -87379
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -67611.902
+Current log-likelihood at step 1: -61412.476
+Current log-likelihood at step 2: -61116.214
+Current log-likelihood at step 3: -61017.119
+Current log-likelihood at step 4: -60983.780
+Current log-likelihood at step 5: -60965.631
+Current log-likelihood at step 6: -60934.679
+Current log-likelihood at step 7: -60880.249
+Current log-likelihood at step 8: -60864.367
+Current log-likelihood at step 9: -60845.119
+Current log-likelihood at step 10: -60828.449
+Current log-likelihood at step 11: -60817.429
+Current log-likelihood at step 12: -60809.124
+Current log-likelihood at step 13: -60801.918
+Current log-likelihood at step 14: -60794.836
+Current log-likelihood at step 15: -60787.453
+Current log-likelihood at step 16: -60779.537
+Current log-likelihood at step 17: -60770.931
+Current log-likelihood at step 18: -60761.619
+Current log-likelihood at step 19: -60734.406
+Current log-likelihood at step 20: -60734.046
+Current log-likelihood at step 21: -60733.717
+Current log-likelihood at step 22: -60733.403
+Current log-likelihood at step 23: -60733.099
+Current log-likelihood at step 24: -60732.808
+Current log-likelihood at step 25: -60732.520
+Current log-likelihood at step 26: -60732.240
+Current log-likelihood at step 27: -60731.963
+Current log-likelihood at step 28: -60731.690
+Current log-likelihood at step 29: -60731.411
+Current log-likelihood at step 30: -60731.146
+Current log-likelihood at step 31: -60730.876
+Current log-likelihood at step 32: -60730.610
+Current log-likelihood at step 33: -60730.346
+Current log-likelihood at step 34: -60730.088
+Current log-likelihood at step 35: -60729.826
+Current log-likelihood at step 36: -60729.566
+Current log-likelihood at step 37: -60729.305
+Current log-likelihood at step 38: -60729.037
+Current log-likelihood at step 39: -60728.777
+Current log-likelihood at step 40: -60728.514
+Current log-likelihood at step 41: -60728.249
+Current log-likelihood at step 42: -60727.981
+Current log-likelihood at step 43: -60727.715
+Current log-likelihood at step 44: -60727.448
+Current log-likelihood at step 45: -60727.178
+Current log-likelihood at step 46: -60726.906
+Current log-likelihood at step 47: -60726.630
+Current log-likelihood at step 48: -60726.349
+Current log-likelihood at step 49: -60726.068
+Current log-likelihood at step 50: -60725.784
+Current log-likelihood at step 51: -60725.495
+Current log-likelihood at step 52: -60725.203
+Current log-likelihood at step 53: -60724.910
+Current log-likelihood at step 54: -60724.612
+Current log-likelihood at step 55: -60724.311
+Current log-likelihood at step 56: -60724.009
+Current log-likelihood at step 57: -60723.706
+Current log-likelihood at step 58: -60723.399
+Current log-likelihood at step 59: -60723.090
+Current log-likelihood at step 60: -60722.777
+Current log-likelihood at step 61: -60722.459
+Current log-likelihood at step 62: -60722.141
+Current log-likelihood at step 63: -60721.819
+Current log-likelihood at step 64: -60721.495
+Current log-likelihood at step 65: -60721.169
+Current log-likelihood at step 66: -60720.841
+Current log-likelihood at step 67: -60720.514
+Current log-likelihood at step 68: -60720.184
+Current log-likelihood at step 69: -60716.098
+Current log-likelihood at step 70: -60716.061
+Partition-specific rates:  3.153 4.331 6.717 2.095 2.176 4.335 2.291 1.969 0.955 0.270 0.207 0.146 0.111 0.402
+Parameters optimization took 69 rounds (24.752 sec)
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00124713 secs using 370% CPU
+Computing ML distances took 0.001282 sec (of wall-clock time) 0.004653 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000456125 secs using 216.2% CPU
+Computing RapidNJ tree took 0.029157 sec (of wall-clock time) 0.045615 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -78549.130
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.836 second
+Computing log-likelihood of 98 initial trees ... 7.758 seconds
+Current best score: -60716.061
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -60572.795
+Current log-likelihood at step 1: -60571.345
+Current log-likelihood at step 2: -60571.108
+Current log-likelihood at step 3: -60570.979
+Current log-likelihood at step 4: -60570.890
+Parameters optimization took 3 rounds (1.355 sec)
+
+BETTER TREE FOUND at iteration 1: -60570.890
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -60570.286
+Current log-likelihood at step 1: -60570.078
+Current log-likelihood at step 2: -60569.987
+Parameters optimization took 1 rounds (0.678 sec)
+
+BETTER TREE FOUND at iteration 4: -60569.987
+Iteration 10 / LogL: -60570.342 / Time: 0h:15m:1s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -60569.597
+Current log-likelihood at step 1: -60569.520
+Parameters optimization took 0 rounds (0.340 sec)
+
+BETTER TREE FOUND at iteration 15: -60569.520
+Iteration 20 / LogL: -60736.735 / Time: 0h:15m:35s
+Finish initializing candidate tree set (20)
+Current best tree score: -60569.520 / CPU time: 75.209
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -60568.707
+Current log-likelihood at step 1: -60568.628
+Parameters optimization took 0 rounds (0.343 sec)
+
+BETTER TREE FOUND at iteration 21: -60568.628
+Iteration 30 / LogL: -60577.164 / Time: 0h:15m:52s (0h:22m:55s left)
+BETTER TREE FOUND at iteration 31: -60568.619
+Iteration 40 / LogL: -60578.360 / Time: 0h:16m:8s (0h:17m:39s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -60568.590
+Current log-likelihood at step 1: -60568.526
+Parameters optimization took 0 rounds (0.347 sec)
+
+BETTER TREE FOUND at iteration 44: -60568.526
+Iteration 50 / LogL: -60568.652 / Time: 0h:16m:23s (0h:15m:0s left)
+Log-likelihood cutoff on original alignment: -60613.613
+Iteration 60 / LogL: -60575.839 / Time: 0h:16m:39s (0h:11m:30s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -60568.509
+Current log-likelihood at step 1: -60568.448
+Parameters optimization took 0 rounds (0.340 sec)
+
+BETTER TREE FOUND at iteration 67: -60568.448
+Iteration 70 / LogL: -60569.759 / Time: 0h:16m:55s (0h:11m:45s left)
+BETTER TREE FOUND at iteration 77: -60568.439
+Iteration 80 / LogL: -60568.478 / Time: 0h:17m:12s (0h:10m:37s left)
+Iteration 90 / LogL: -60576.209 / Time: 0h:17m:29s (0h:8m:43s left)
+Iteration 100 / LogL: -60569.298 / Time: 0h:17m:46s (0h:7m:9s left)
+Log-likelihood cutoff on original alignment: -60612.622
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 110 / LogL: -60586.307 / Time: 0h:18m:2s (0h:7m:49s left)
+Iteration 120 / LogL: -60569.722 / Time: 0h:18m:18s (0h:6m:32s left)
+BETTER TREE FOUND at iteration 128: -60568.439
+Iteration 130 / LogL: -60578.691 / Time: 0h:18m:38s (0h:7m:39s left)
+Iteration 140 / LogL: -60582.689 / Time: 0h:18m:57s (0h:6m:34s left)
+Iteration 150 / LogL: -60568.471 / Time: 0h:19m:15s (0h:5m:36s left)
+Log-likelihood cutoff on original alignment: -60612.622
+BETTER TREE FOUND at iteration 156: -60568.439
+Iteration 160 / LogL: -60625.806 / Time: 0h:19m:34s (0h:6m:38s left)
+Iteration 170 / LogL: -60570.539 / Time: 0h:19m:52s (0h:5m:45s left)
+Iteration 180 / LogL: -60568.587 / Time: 0h:20m:9s (0h:4m:55s left)
+BETTER TREE FOUND at iteration 187: -60568.437
+Iteration 190 / LogL: -60568.565 / Time: 0h:20m:28s (0h:6m:6s left)
+Iteration 200 / LogL: -60585.091 / Time: 0h:20m:47s (0h:5m:20s left)
+Log-likelihood cutoff on original alignment: -60612.622
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 210 / LogL: -60568.486 / Time: 0h:21m:5s (0h:5m:23s left)
+Iteration 220 / LogL: -60580.884 / Time: 0h:21m:23s (0h:4m:41s left)
+Iteration 230 / LogL: -60569.760 / Time: 0h:21m:42s (0h:4m:1s left)
+Iteration 240 / LogL: -60568.472 / Time: 0h:22m:1s (0h:3m:22s left)
+Iteration 250 / LogL: -60570.930 / Time: 0h:22m:20s (0h:2m:45s left)
+Log-likelihood cutoff on original alignment: -60612.622
+Iteration 260 / LogL: -60568.474 / Time: 0h:22m:38s (0h:2m:10s left)
+Iteration 270 / LogL: -60569.690 / Time: 0h:22m:57s (0h:1m:36s left)
+Iteration 280 / LogL: -60569.723 / Time: 0h:23m:16s (0h:1m:3s left)
+TREE SEARCH COMPLETED AFTER 288 ITERATIONS / Time: 0h:23m:29s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -60568.437
+Current log-likelihood at step 1: -60568.376
+Current log-likelihood at step 2: -60568.325
+Current log-likelihood at step 3: -60568.278
+Current log-likelihood at step 4: -60568.233
+Current log-likelihood at step 5: -60568.190
+Current log-likelihood at step 6: -60568.148
+Current log-likelihood at step 7: -60568.109
+Current log-likelihood at step 8: -60568.070
+Current log-likelihood at step 9: -60568.033
+Current log-likelihood at step 10: -60567.995
+Current log-likelihood at step 11: -60567.959
+Current log-likelihood at step 12: -60567.924
+Current log-likelihood at step 13: -60567.890
+Current log-likelihood at step 14: -60567.857
+Current log-likelihood at step 15: -60567.825
+Current log-likelihood at step 16: -60567.793
+Current log-likelihood at step 17: -60567.762
+Current log-likelihood at step 18: -60567.732
+Current log-likelihood at step 19: -60567.702
+Current log-likelihood at step 20: -60567.673
+Current log-likelihood at step 21: -60567.644
+Current log-likelihood at step 22: -60567.615
+Current log-likelihood at step 23: -60567.588
+Current log-likelihood at step 24: -60567.560
+Current log-likelihood at step 25: -60567.533
+Current log-likelihood at step 26: -60567.507
+Current log-likelihood at step 27: -60567.481
+Current log-likelihood at step 28: -60567.456
+Current log-likelihood at step 29: -60567.431
+Current log-likelihood at step 30: -60567.407
+Current log-likelihood at step 31: -60567.383
+Current log-likelihood at step 32: -60567.362
+Current log-likelihood at step 33: -60567.343
+Current log-likelihood at step 34: -60567.323
+Current log-likelihood at step 35: -60567.305
+Current log-likelihood at step 36: -60567.286
+Current log-likelihood at step 37: -60567.271
+Current log-likelihood at step 38: -60567.257
+Current log-likelihood at step 39: -60567.242
+Current log-likelihood at step 40: -60567.228
+Current log-likelihood at step 41: -60567.213
+Current log-likelihood at step 42: -60567.199
+Current log-likelihood at step 43: -60567.186
+Current log-likelihood at step 44: -60567.172
+Current log-likelihood at step 45: -60567.158
+Current log-likelihood at step 46: -60567.145
+Current log-likelihood at step 47: -60567.132
+Current log-likelihood at step 48: -60567.118
+Current log-likelihood at step 49: -60567.106
+Current log-likelihood at step 50: -60567.092
+Current log-likelihood at step 51: -60567.079
+Current log-likelihood at step 52: -60567.067
+Current log-likelihood at step 53: -60567.055
+Current log-likelihood at step 54: -60567.042
+Current log-likelihood at step 55: -60567.030
+Current log-likelihood at step 56: -60567.018
+Current log-likelihood at step 57: -60567.006
+Current log-likelihood at step 58: -60566.994
+Current log-likelihood at step 59: -60566.983
+Current log-likelihood at step 60: -60566.972
+Current log-likelihood at step 61: -60566.961
+Current log-likelihood at step 62: -60566.949
+Current log-likelihood at step 63: -60566.938
+Current log-likelihood at step 64: -60566.927
+Current log-likelihood at step 65: -60566.916
+Current log-likelihood at step 66: -60566.905
+Current log-likelihood at step 67: -60566.894
+Current log-likelihood at step 68: -60566.883
+Current log-likelihood at step 69: -60566.873
+Current log-likelihood at step 70: -60566.862
+Current log-likelihood at step 71: -60566.852
+Current log-likelihood at step 72: -60566.842
+Current log-likelihood at step 73: -60566.832
+Current log-likelihood at step 74: -60566.822
+Partition-specific rates:  3.050 3.705 6.605 2.121 2.178 3.537 2.303 1.964 0.959 0.265 0.205 0.144 0.104 0.386
+Parameters optimization took 73 rounds (20.493 sec)
+
+Partition information was printed to v10.3b_CharacterSetsTE.txt.best_model.nex
+BEST SCORE FOUND : -60566.822
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.713 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file v10.3b_CharacterSetsTE.txt.splits.nex
+Total tree length: 4.616
+
+Total number of iterations: 288
+CPU time used for tree search: 1069.123 sec (0h:17m:49s)
+Wall-clock time used for tree search: 549.863 sec (0h:9m:9s)
+Total CPU time used: 52760.317 sec (14h:39m:20s)
+Total wall-clock time used: 1437.169 sec (0h:23m:57s)
+
+Computing bootstrap consensus tree...
+Reading input file v10.3b_CharacterSetsTE.txt.splits.nex...
+115 taxa and 634 splits.
+Consensus tree written to v10.3b_CharacterSetsTE.txt.contree
+Reading input trees file v10.3b_CharacterSetsTE.txt.contree
+Log-likelihood of consensus tree: -60566.879
+
+Analysis results written to: 
+  IQ-TREE report:                v10.3b_CharacterSetsTE.txt.iqtree
+  Maximum-likelihood tree:       v10.3b_CharacterSetsTE.txt.treefile
+  Likelihood distances:          v10.3b_CharacterSetsTE.txt.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          v10.3b_CharacterSetsTE.txt.splits.nex
+  Consensus tree:                v10.3b_CharacterSetsTE.txt.contree
+  Screen log file:               v10.3b_CharacterSetsTE.txt.log
+
+Date and Time: Fri Jul 12 06:17:11 2024

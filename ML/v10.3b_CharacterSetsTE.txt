@@ -1,0 +1,111 @@
+#nexus
+begin sets;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 1;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 2;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 3;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 4-5;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 6-8;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 9-10;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 11-29;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 30;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 31;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 32;
+    charset partFenOrd4st = Drub_MORPH.nex:MORPH, 33-34;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 35;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 36-37;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 38-40;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 41;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 42;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 43-44;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 45-63; 
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 64;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 65;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 66;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 67-68; 
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 69-70;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 71;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 72; 
+    charset partFen2st = Drub_MORPH.nex:MORPH, 73;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 74; 
+    charset partFen2st = Drub_MORPH.nex:MORPH, 75-76;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 77;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 78-80;
+    charset partFenNoOrd4st = Drub_MORPH.nex:MORPH, 81;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 82;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 83;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 84-89;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 90;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 91-93;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 94;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 94-112;
+    charset partFenNoOrd4st = Drub_MORPH.nex:MORPH, 113;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 114-117;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 118;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 119;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 120-124;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 125;
+    charset partFenOrd4st = Drub_MORPH.nex:MORPH, 126-128;
+    charset partFenOrd5st = Drub_MORPH.nex:MORPH, 129;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 130;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 131-132;
+    charset partFenOrd4st = Drub_MORPH.nex:MORPH, 133-136;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 137;
+    charset partFenNoOrd4st = Drub_MORPH.nex:MORPH, 138;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 139;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 140;
+    charset partFenNoOrd4st = Drub_MORPH.nex:MORPH, 141;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 142;
+    charset partFenNoOrd4st = Drub_MORPH.nex:MORPH, 143;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 144;
+    charset partFenNoOrd4st = Drub_MORPH.nex:MORPH, 145;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 146-149;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 150;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 151;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 152;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 153-155;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 156;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 157;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 158;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 159;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 160;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 161;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 162;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 163-164;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 165;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 166;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 167-170;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 171-172;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 173-175;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 176;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 177;
+    charset partFenNoOrd4st = Drub_MORPH.nex:MORPH, 178;
+    charset partFenNoOrd3st = Drub_MORPH.nex:MORPH, 179;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 180-195;
+    charset partFenOrd4st = Drub_MORPH.nex:MORPH, 196;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 197;
+    charset partFenOrd3st = Drub_MORPH.nex:MORPH, 198;
+    charset partFen2st = Drub_MORPH.nex:MORPH, 199-201;
+    charset COI = Drub_MOL3.fas:DNA, 1-653;
+    charset CYTB = Drub_MOL3.fas:DNA, 646-1554;
+    charset H1 = Drub_MOL3.fas:DNA, 1555-4492;
+    charset POMC = Drub_MOL3.fas:DNA, 4493-4938;
+    charset RAG1 = Drub_MOL3.fas:DNA, 4939-5368;
+    charset RHOD = Drub_MOL3.fas:DNA, 5369-5682;
+    charset SIA = Drub_MOL3.fas:DNA, 5683-6084;
+    charset TYR = Drub_MOL3.fas:DNA, 6085-6623;
+    charpartition mymodels = 
+        MK+ASC: partFen2st,
+        MK+ASC: partFenNoOrd3st,
+        MK+ASC: partFenNoOrd4st,
+        ORDERED+ASC: partFenOrd3st,
+        ORDERED+ASC: partFenOrd4st,
+        ORDERED+ASC: partFenOrd5st,
+        TPM2u+F+I+G4: COI,
+        TIM2+F+I+I+R4: CYTB,
+        GTR+F+I+I+R4: H1,
+        TN+F+I+I+R2: POMC,
+        K2P+I+I+R2: RAG1,
+        TPM3+I+I+R2: RHOD,
+        K2P+R2: SIA,
+        TNe+I+G4: TYR;
+end;

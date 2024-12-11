@@ -1,0 +1,19 @@
+log v9.7.Drub.log;
+mxram 8048;
+taxname +90;
+proc v9.5_Drub.IP.ss;
+outgroup Phyllodytes_luteolous_M;
+mult= tbr replic 200 hold 1;
+
+ttag-; ttag=; proc BREMER_TG.1.RUN;
+ttag[; resample boot freq nogc replications 1000 [ xmult = hits 5 level 2 ];
+ttag]; resample jak freq nogc replications 1000 [ xmult = hits 5 level 2 ];
+
+keep 1;
+Taxname= ;
+ttags );
+ttags ;
+export < v9.7_Drub_GB_BS_JK.nwk ;
+log/ ;
+quit ;
+
